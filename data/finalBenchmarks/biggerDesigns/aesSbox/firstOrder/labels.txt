@@ -1,0 +1,56 @@
+8;XxDI[0][4];share 5.1
+7;XxDI[0][3];share 4.1
+6;XxDI[0][2];share 3.1
+5;XxDI[0][1];share 2.1
+4;XxDI[0][0];share 1.1
+3;RstxBI;unimportant
+2;ClkxCI;unimportant
+45;Bmul1xDI[1][3];unimportant
+44;Bmul1xDI[1][2];unimportant
+43;Bmul1xDI[1][1];unimportant
+42;Bmul1xDI[1][0];unimportant
+41;Bmul1xDI[0][3];unimportant
+40;Bmul1xDI[0][2];unimportant
+10;XxDI[0][6];share 7.1
+39;Bmul1xDI[0][1];unimportant
+46;Binv1xDI[0][0];unimportant
+47;Binv1xDI[0][1];unimportant
+48;Binv1xDI[1][0];unimportant
+49;Binv1xDI[1][1];unimportant
+50;Binv2xDI[0][0];unimportant
+51;Binv2xDI[0][1];unimportant
+9;XxDI[0][5];share 6.1
+38;Bmul1xDI[0][0];unimportant
+52;Binv2xDI[1][0];unimportant
+53;Binv2xDI[1][1];unimportant
+54;Binv3xDI[0][0];unimportant
+55;Binv3xDI[0][1];unimportant
+56;Binv3xDI[1][0];unimportant
+57;Binv3xDI[1][1];unimportant
+11;XxDI[0][7];share 8.1
+12;XxDI[1][0];share 1.2
+13;XxDI[1][1];share 2.2
+14;XxDI[1][2];share 3.2
+15;XxDI[1][3];share 4.2
+16;XxDI[1][4];share 5.2
+17;XxDI[1][5];share 6.2
+18;XxDI[1][6];share 7.2
+19;XxDI[1][7];share 8.2
+32;Zinv1xDI[0][0];random
+33;Zinv1xDI[0][1];random
+34;Zinv2xDI[0][0];random
+35;Zinv2xDI[0][1];random
+36;Zinv3xDI[0][0];random
+37;Zinv3xDI[0][1];random
+20;Zmul1xDI[0][0];random
+21;Zmul1xDI[0][1];random
+22;Zmul1xDI[0][2];random
+23;Zmul1xDI[0][3];random
+24;Zmul2xDI[0][0];random
+25;Zmul2xDI[0][1];random
+26;Zmul2xDI[0][2];random
+27;Zmul2xDI[0][3];random
+28;Zmul3xDI[0][0];random
+29;Zmul3xDI[0][1];random
+30;Zmul3xDI[0][2];random
+31;Zmul3xDI[0][3];random

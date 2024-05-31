@@ -1,0 +1,50 @@
+24;prd_i[0];random
+34;prd_i[10];random
+5;out_ack_i;unimportant
+36;prd_i[12];random
+7;op_i[1];unimportant
+35;prd_i[11];random
+6;op_i[0];unimportant
+23;mask0_i[7];share 8.2
+22;mask0_i[6];share 7.2
+21;mask0_i[5];share 6.2
+20;mask0_i[4];share 5.2
+19;mask0_i[3];share 4.2
+2;clk_i;unimportant
+15;data_i[7];share 8.1
+37;prd_i[13];random
+8;data_i[0];share 1.1
+38;prd_i[14];random
+9;data_i[1];share 2.1
+39;prd_i[15];random
+10;data_i[2];share 3.1
+40;prd_i[16];random
+11;data_i[3];share 4.1
+12;data_i[4];share 5.1
+13;data_i[5];share 6.1
+14;data_i[6];share 7.1
+4;en_i;unimportant
+17;mask0_i[1];share 2.2
+16;mask0_i[0];share 1.2
+18;mask0_i[2];share 3.2
+41;prd_i[17];random
+42;prd_i[18];random
+43;prd_i[19];random
+25;prd_i[1];random
+44;prd_i[20];random
+45;prd_i[21];random
+46;prd_i[22];random
+47;prd_i[23];random
+48;prd_i[24];random
+49;prd_i[25];random
+50;prd_i[26];random
+51;prd_i[27];random
+26;prd_i[2];random
+27;prd_i[3];random
+28;prd_i[4];random
+29;prd_i[5];random
+30;prd_i[6];random
+31;prd_i[7];random
+32;prd_i[8];random
+33;prd_i[9];random
+3;rst_ni;unimportant

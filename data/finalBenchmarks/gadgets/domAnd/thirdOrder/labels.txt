@@ -1,0 +1,114 @@
+3;rst_i;unimportant
+2;clk_i;unimportant
+115;Z5_i[7];random
+114;Z5_i[6];random
+113;Z5_i[5];random
+112;Z5_i[4];random
+111;Z5_i[3];random
+110;Z5_i[2];random
+109;Z5_i[1];random
+108;Z5_i[0];random
+107;Z4_i[7];random
+106;Z4_i[6];random
+105;Z4_i[5];random
+104;Z4_i[4];random
+103;Z4_i[3];random
+102;Z4_i[2];random
+101;Z4_i[1];random
+100;Z4_i[0];random
+99;Z3_i[7];random
+98;Z3_i[6];random
+97;Z3_i[5];random
+96;Z3_i[4];random
+95;Z3_i[3];random
+94;Z3_i[2];random
+93;Z3_i[1];random
+92;Z3_i[0];random
+91;Z2_i[7];random
+90;Z2_i[6];random
+89;Z2_i[5];random
+88;Z2_i[4];random
+87;Z2_i[3];random
+86;Z2_i[2];random
+85;Z2_i[1];random
+84;Z2_i[0];random
+83;Z1_i[7];random
+82;Z1_i[6];random
+81;Z1_i[5];random
+80;Z1_i[4];random
+79;Z1_i[3];random
+78;Z1_i[2];random
+77;Z1_i[1];random
+76;Z1_i[0];random
+75;Z0_i[7];random
+74;Z0_i[6];random
+73;Z0_i[5];random
+72;Z0_i[4];random
+71;Z0_i[3];random
+70;Z0_i[2];random
+69;Z0_i[1];random
+68;Z0_i[0];random
+67;Y3_i[7];share 16.4
+66;Y3_i[6];share 15.4
+65;Y3_i[5];share 14.4
+64;Y3_i[4];share 13.4
+63;Y3_i[3];share 12.4
+32;X3_i[4];share 5.4
+31;X3_i[3];share 4.4
+30;X3_i[2];share 3.4
+29;X3_i[1];share 2.4
+28;X3_i[0];share 1.4
+27;X2_i[7];share 8.3
+26;X2_i[6];share 7.3
+25;X2_i[5];share 6.3
+24;X2_i[4];share 5.3
+23;X2_i[3];share 4.3
+22;X2_i[2];share 3.3
+21;X2_i[1];share 2.3
+20;X2_i[0];share 1.3
+19;X1_i[7];share 8.2
+18;X1_i[6];share 7.2
+17;X1_i[5];share 6.2
+4;X0_i[0];share 1.1
+5;X0_i[1];share 2.1
+6;X0_i[2];share 3.1
+7;X0_i[3];share 4.1
+8;X0_i[4];share 5.1
+9;X0_i[5];share 6.1
+10;X0_i[6];share 7.1
+11;X0_i[7];share 8.1
+12;X1_i[0];share 1.2
+13;X1_i[1];share 2.2
+14;X1_i[2];share 3.2
+15;X1_i[3];share 4.2
+16;X1_i[4];share 5.2
+33;X3_i[5];share 6.4
+34;X3_i[6];share 7.4
+35;X3_i[7];share 8.4
+36;Y0_i[0];share 9.1
+37;Y0_i[1];share 10.1
+38;Y0_i[2];share 11.1
+39;Y0_i[3];share 12.1
+40;Y0_i[4];share 13.1
+41;Y0_i[5];share 14.1
+42;Y0_i[6];share 15.1
+43;Y0_i[7];share 16.1
+44;Y1_i[0];share 9.2
+45;Y1_i[1];share 10.2
+46;Y1_i[2];share 11.2
+47;Y1_i[3];share 12.2
+48;Y1_i[4];share 13.2
+49;Y1_i[5];share 14.2
+50;Y1_i[6];share 15.2
+51;Y1_i[7];share 16.2
+52;Y2_i[0];share 9.3
+53;Y2_i[1];share 10.3
+54;Y2_i[2];share 11.3
+55;Y2_i[3];share 12.3
+56;Y2_i[4];share 13.3
+57;Y2_i[5];share 14.3
+58;Y2_i[6];share 15.3
+59;Y2_i[7];share 16.3
+60;Y3_i[0];share 9.4
+61;Y3_i[1];share 10.4
+62;Y3_i[2];share 11.4

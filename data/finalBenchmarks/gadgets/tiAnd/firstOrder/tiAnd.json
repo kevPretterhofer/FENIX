@@ -1,0 +1,2943 @@
+{
+  "creator": "Yosys 0.16+31 (git sha1 UNKNOWN, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)",
+  "modules": {
+    "ti_and": {
+      "attributes": {
+        "STRUCTURAL_NETLIST": "yes",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "tiAndNetlist.v:17.1-464.10"
+      },
+      "ports": {
+        "x2[0]": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "x2[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 3 ]
+        },
+        "x2[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 4 ]
+        },
+        "x2[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 5 ]
+        },
+        "x2[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 6 ]
+        },
+        "x2[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 7 ]
+        },
+        "x2[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 8 ]
+        },
+        "x2[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 9 ]
+        },
+        "x0[0]": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "x0[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 11 ]
+        },
+        "x0[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 12 ]
+        },
+        "x0[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 13 ]
+        },
+        "x0[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 14 ]
+        },
+        "x0[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 15 ]
+        },
+        "x0[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 16 ]
+        },
+        "x0[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 17 ]
+        },
+        "x1[0]": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "x1[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 19 ]
+        },
+        "x1[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 20 ]
+        },
+        "x1[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 21 ]
+        },
+        "x1[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 22 ]
+        },
+        "x1[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 23 ]
+        },
+        "x1[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 24 ]
+        },
+        "x1[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 25 ]
+        },
+        "y2[0]": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "y2[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 27 ]
+        },
+        "y2[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 28 ]
+        },
+        "y2[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 29 ]
+        },
+        "y2[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 30 ]
+        },
+        "y2[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 31 ]
+        },
+        "y2[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 32 ]
+        },
+        "y2[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 33 ]
+        },
+        "y0[0]": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "y0[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 35 ]
+        },
+        "y0[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 36 ]
+        },
+        "y0[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 37 ]
+        },
+        "y0[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 38 ]
+        },
+        "y0[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 39 ]
+        },
+        "y0[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 40 ]
+        },
+        "y0[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 41 ]
+        },
+        "y1[0]": {
+          "direction": "input",
+          "bits": [ 42 ]
+        },
+        "y1[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 43 ]
+        },
+        "y1[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 44 ]
+        },
+        "y1[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 45 ]
+        },
+        "y1[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 46 ]
+        },
+        "y1[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 47 ]
+        },
+        "y1[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 48 ]
+        },
+        "y1[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 49 ]
+        },
+        "q0[0]": {
+          "direction": "output",
+          "bits": [ 50 ]
+        },
+        "q0[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 51 ]
+        },
+        "q0[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 52 ]
+        },
+        "q0[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 53 ]
+        },
+        "q0[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 54 ]
+        },
+        "q0[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 55 ]
+        },
+        "q0[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 56 ]
+        },
+        "q0[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 57 ]
+        },
+        "q1[0]": {
+          "direction": "output",
+          "bits": [ 58 ]
+        },
+        "q1[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 59 ]
+        },
+        "q1[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 60 ]
+        },
+        "q1[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 61 ]
+        },
+        "q1[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 62 ]
+        },
+        "q1[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 63 ]
+        },
+        "q1[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 64 ]
+        },
+        "q1[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 65 ]
+        },
+        "q2[0]": {
+          "direction": "output",
+          "bits": [ 66 ]
+        },
+        "q2[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 67 ]
+        },
+        "q2[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 68 ]
+        },
+        "q2[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 69 ]
+        },
+        "q2[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 70 ]
+        },
+        "q2[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 71 ]
+        },
+        "q2[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 72 ]
+        },
+        "q2[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 73 ]
+        }
+      },
+      "cells": {
+        "q0_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:56.8-58.19"
+          },
+          "connections": {
+            "I": [ 74 ],
+            "O": [ 50 ]
+          }
+        },
+        "q0_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:61.5-66.24"
+          },
+          "connections": {
+            "I0": [ 75 ],
+            "I1": [ 76 ],
+            "I2": [ 77 ],
+            "I3": [ 78 ],
+            "O": [ 74 ]
+          }
+        },
+        "q0_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:67.8-69.19"
+          },
+          "connections": {
+            "I": [ 79 ],
+            "O": [ 51 ]
+          }
+        },
+        "q0_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:72.5-77.24"
+          },
+          "connections": {
+            "I0": [ 80 ],
+            "I1": [ 81 ],
+            "I2": [ 82 ],
+            "I3": [ 83 ],
+            "O": [ 79 ]
+          }
+        },
+        "q0_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:78.8-80.19"
+          },
+          "connections": {
+            "I": [ 84 ],
+            "O": [ 52 ]
+          }
+        },
+        "q0_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:83.5-88.24"
+          },
+          "connections": {
+            "I0": [ 85 ],
+            "I1": [ 86 ],
+            "I2": [ 87 ],
+            "I3": [ 88 ],
+            "O": [ 84 ]
+          }
+        },
+        "q0_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:89.8-91.19"
+          },
+          "connections": {
+            "I": [ 89 ],
+            "O": [ 53 ]
+          }
+        },
+        "q0_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:94.5-99.24"
+          },
+          "connections": {
+            "I0": [ 90 ],
+            "I1": [ 91 ],
+            "I2": [ 92 ],
+            "I3": [ 93 ],
+            "O": [ 89 ]
+          }
+        },
+        "q0_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:100.8-102.19"
+          },
+          "connections": {
+            "I": [ 94 ],
+            "O": [ 54 ]
+          }
+        },
+        "q0_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:105.5-110.24"
+          },
+          "connections": {
+            "I0": [ 95 ],
+            "I1": [ 96 ],
+            "I2": [ 97 ],
+            "I3": [ 98 ],
+            "O": [ 94 ]
+          }
+        },
+        "q0_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:111.8-113.19"
+          },
+          "connections": {
+            "I": [ 99 ],
+            "O": [ 55 ]
+          }
+        },
+        "q0_OBUF[5]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:116.5-121.24"
+          },
+          "connections": {
+            "I0": [ 100 ],
+            "I1": [ 101 ],
+            "I2": [ 102 ],
+            "I3": [ 103 ],
+            "O": [ 99 ]
+          }
+        },
+        "q0_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:122.8-124.19"
+          },
+          "connections": {
+            "I": [ 104 ],
+            "O": [ 56 ]
+          }
+        },
+        "q0_OBUF[6]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:127.5-132.24"
+          },
+          "connections": {
+            "I0": [ 105 ],
+            "I1": [ 106 ],
+            "I2": [ 107 ],
+            "I3": [ 108 ],
+            "O": [ 104 ]
+          }
+        },
+        "q0_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:133.8-135.19"
+          },
+          "connections": {
+            "I": [ 109 ],
+            "O": [ 57 ]
+          }
+        },
+        "q0_OBUF[7]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:138.5-143.24"
+          },
+          "connections": {
+            "I0": [ 110 ],
+            "I1": [ 111 ],
+            "I2": [ 112 ],
+            "I3": [ 113 ],
+            "O": [ 109 ]
+          }
+        },
+        "q1_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:144.8-146.19"
+          },
+          "connections": {
+            "I": [ 114 ],
+            "O": [ 58 ]
+          }
+        },
+        "q1_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:149.5-154.24"
+          },
+          "connections": {
+            "I0": [ 115 ],
+            "I1": [ 78 ],
+            "I2": [ 75 ],
+            "I3": [ 116 ],
+            "O": [ 114 ]
+          }
+        },
+        "q1_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:155.8-157.19"
+          },
+          "connections": {
+            "I": [ 117 ],
+            "O": [ 59 ]
+          }
+        },
+        "q1_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:160.5-165.24"
+          },
+          "connections": {
+            "I0": [ 118 ],
+            "I1": [ 83 ],
+            "I2": [ 80 ],
+            "I3": [ 119 ],
+            "O": [ 117 ]
+          }
+        },
+        "q1_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:166.8-168.19"
+          },
+          "connections": {
+            "I": [ 120 ],
+            "O": [ 60 ]
+          }
+        },
+        "q1_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:171.5-176.24"
+          },
+          "connections": {
+            "I0": [ 121 ],
+            "I1": [ 88 ],
+            "I2": [ 85 ],
+            "I3": [ 122 ],
+            "O": [ 120 ]
+          }
+        },
+        "q1_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:177.8-179.19"
+          },
+          "connections": {
+            "I": [ 123 ],
+            "O": [ 61 ]
+          }
+        },
+        "q1_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:182.5-187.24"
+          },
+          "connections": {
+            "I0": [ 124 ],
+            "I1": [ 93 ],
+            "I2": [ 90 ],
+            "I3": [ 125 ],
+            "O": [ 123 ]
+          }
+        },
+        "q1_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:188.8-190.19"
+          },
+          "connections": {
+            "I": [ 126 ],
+            "O": [ 62 ]
+          }
+        },
+        "q1_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:193.5-198.24"
+          },
+          "connections": {
+            "I0": [ 127 ],
+            "I1": [ 98 ],
+            "I2": [ 95 ],
+            "I3": [ 128 ],
+            "O": [ 126 ]
+          }
+        },
+        "q1_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:199.8-201.19"
+          },
+          "connections": {
+            "I": [ 129 ],
+            "O": [ 63 ]
+          }
+        },
+        "q1_OBUF[5]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:204.5-209.24"
+          },
+          "connections": {
+            "I0": [ 130 ],
+            "I1": [ 103 ],
+            "I2": [ 100 ],
+            "I3": [ 131 ],
+            "O": [ 129 ]
+          }
+        },
+        "q1_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:210.8-212.19"
+          },
+          "connections": {
+            "I": [ 132 ],
+            "O": [ 64 ]
+          }
+        },
+        "q1_OBUF[6]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:215.5-220.24"
+          },
+          "connections": {
+            "I0": [ 133 ],
+            "I1": [ 108 ],
+            "I2": [ 105 ],
+            "I3": [ 134 ],
+            "O": [ 132 ]
+          }
+        },
+        "q1_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:221.8-223.19"
+          },
+          "connections": {
+            "I": [ 135 ],
+            "O": [ 65 ]
+          }
+        },
+        "q1_OBUF[7]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010110001100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:226.5-231.24"
+          },
+          "connections": {
+            "I0": [ 136 ],
+            "I1": [ 113 ],
+            "I2": [ 110 ],
+            "I3": [ 137 ],
+            "O": [ 135 ]
+          }
+        },
+        "q2_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:232.8-234.19"
+          },
+          "connections": {
+            "I": [ 138 ],
+            "O": [ 66 ]
+          }
+        },
+        "q2_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:237.5-242.24"
+          },
+          "connections": {
+            "I0": [ 77 ],
+            "I1": [ 115 ],
+            "I2": [ 116 ],
+            "I3": [ 76 ],
+            "O": [ 138 ]
+          }
+        },
+        "q2_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:243.8-245.19"
+          },
+          "connections": {
+            "I": [ 139 ],
+            "O": [ 67 ]
+          }
+        },
+        "q2_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:248.5-253.24"
+          },
+          "connections": {
+            "I0": [ 82 ],
+            "I1": [ 118 ],
+            "I2": [ 119 ],
+            "I3": [ 81 ],
+            "O": [ 139 ]
+          }
+        },
+        "q2_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:254.8-256.19"
+          },
+          "connections": {
+            "I": [ 140 ],
+            "O": [ 68 ]
+          }
+        },
+        "q2_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:259.5-264.24"
+          },
+          "connections": {
+            "I0": [ 87 ],
+            "I1": [ 121 ],
+            "I2": [ 122 ],
+            "I3": [ 86 ],
+            "O": [ 140 ]
+          }
+        },
+        "q2_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:265.8-267.19"
+          },
+          "connections": {
+            "I": [ 141 ],
+            "O": [ 69 ]
+          }
+        },
+        "q2_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:270.5-275.24"
+          },
+          "connections": {
+            "I0": [ 92 ],
+            "I1": [ 124 ],
+            "I2": [ 125 ],
+            "I3": [ 91 ],
+            "O": [ 141 ]
+          }
+        },
+        "q2_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:276.8-278.19"
+          },
+          "connections": {
+            "I": [ 142 ],
+            "O": [ 70 ]
+          }
+        },
+        "q2_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:281.5-286.24"
+          },
+          "connections": {
+            "I0": [ 97 ],
+            "I1": [ 127 ],
+            "I2": [ 128 ],
+            "I3": [ 96 ],
+            "O": [ 142 ]
+          }
+        },
+        "q2_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:287.8-289.19"
+          },
+          "connections": {
+            "I": [ 143 ],
+            "O": [ 71 ]
+          }
+        },
+        "q2_OBUF[5]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:292.5-297.24"
+          },
+          "connections": {
+            "I0": [ 102 ],
+            "I1": [ 130 ],
+            "I2": [ 131 ],
+            "I3": [ 101 ],
+            "O": [ 143 ]
+          }
+        },
+        "q2_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:298.8-300.19"
+          },
+          "connections": {
+            "I": [ 144 ],
+            "O": [ 72 ]
+          }
+        },
+        "q2_OBUF[6]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:303.5-308.24"
+          },
+          "connections": {
+            "I0": [ 107 ],
+            "I1": [ 133 ],
+            "I2": [ 134 ],
+            "I3": [ 106 ],
+            "O": [ 144 ]
+          }
+        },
+        "q2_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:309.8-311.19"
+          },
+          "connections": {
+            "I": [ 145 ],
+            "O": [ 73 ]
+          }
+        },
+        "q2_OBUF[7]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1011100001001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:314.5-319.24"
+          },
+          "connections": {
+            "I0": [ 112 ],
+            "I1": [ 136 ],
+            "I2": [ 137 ],
+            "I3": [ 111 ],
+            "O": [ 145 ]
+          }
+        },
+        "x0_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:320.8-322.24"
+          },
+          "connections": {
+            "I": [ 10 ],
+            "O": [ 76 ]
+          }
+        },
+        "x0_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:323.8-325.24"
+          },
+          "connections": {
+            "I": [ 11 ],
+            "O": [ 81 ]
+          }
+        },
+        "x0_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:326.8-328.24"
+          },
+          "connections": {
+            "I": [ 12 ],
+            "O": [ 86 ]
+          }
+        },
+        "x0_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:329.8-331.24"
+          },
+          "connections": {
+            "I": [ 13 ],
+            "O": [ 91 ]
+          }
+        },
+        "x0_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:332.8-334.24"
+          },
+          "connections": {
+            "I": [ 14 ],
+            "O": [ 96 ]
+          }
+        },
+        "x0_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:335.8-337.24"
+          },
+          "connections": {
+            "I": [ 15 ],
+            "O": [ 101 ]
+          }
+        },
+        "x0_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:338.8-340.24"
+          },
+          "connections": {
+            "I": [ 16 ],
+            "O": [ 106 ]
+          }
+        },
+        "x0_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:341.8-343.24"
+          },
+          "connections": {
+            "I": [ 17 ],
+            "O": [ 111 ]
+          }
+        },
+        "x1_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:344.8-346.24"
+          },
+          "connections": {
+            "I": [ 18 ],
+            "O": [ 78 ]
+          }
+        },
+        "x1_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:347.8-349.24"
+          },
+          "connections": {
+            "I": [ 19 ],
+            "O": [ 83 ]
+          }
+        },
+        "x1_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:350.8-352.24"
+          },
+          "connections": {
+            "I": [ 20 ],
+            "O": [ 88 ]
+          }
+        },
+        "x1_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:353.8-355.24"
+          },
+          "connections": {
+            "I": [ 21 ],
+            "O": [ 93 ]
+          }
+        },
+        "x1_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:356.8-358.24"
+          },
+          "connections": {
+            "I": [ 22 ],
+            "O": [ 98 ]
+          }
+        },
+        "x1_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:359.8-361.24"
+          },
+          "connections": {
+            "I": [ 23 ],
+            "O": [ 103 ]
+          }
+        },
+        "x1_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:362.8-364.24"
+          },
+          "connections": {
+            "I": [ 24 ],
+            "O": [ 108 ]
+          }
+        },
+        "x1_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:365.8-367.24"
+          },
+          "connections": {
+            "I": [ 25 ],
+            "O": [ 113 ]
+          }
+        },
+        "x2_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:368.8-370.24"
+          },
+          "connections": {
+            "I": [ 2 ],
+            "O": [ 115 ]
+          }
+        },
+        "x2_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:371.8-373.24"
+          },
+          "connections": {
+            "I": [ 3 ],
+            "O": [ 118 ]
+          }
+        },
+        "x2_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:374.8-376.24"
+          },
+          "connections": {
+            "I": [ 4 ],
+            "O": [ 121 ]
+          }
+        },
+        "x2_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:377.8-379.24"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "O": [ 124 ]
+          }
+        },
+        "x2_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:380.8-382.24"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 127 ]
+          }
+        },
+        "x2_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:383.8-385.24"
+          },
+          "connections": {
+            "I": [ 7 ],
+            "O": [ 130 ]
+          }
+        },
+        "x2_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:386.8-388.24"
+          },
+          "connections": {
+            "I": [ 8 ],
+            "O": [ 133 ]
+          }
+        },
+        "x2_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:389.8-391.24"
+          },
+          "connections": {
+            "I": [ 9 ],
+            "O": [ 136 ]
+          }
+        },
+        "y0_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:392.8-394.24"
+          },
+          "connections": {
+            "I": [ 34 ],
+            "O": [ 77 ]
+          }
+        },
+        "y0_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:395.8-397.24"
+          },
+          "connections": {
+            "I": [ 35 ],
+            "O": [ 82 ]
+          }
+        },
+        "y0_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:398.8-400.24"
+          },
+          "connections": {
+            "I": [ 36 ],
+            "O": [ 87 ]
+          }
+        },
+        "y0_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:401.8-403.24"
+          },
+          "connections": {
+            "I": [ 37 ],
+            "O": [ 92 ]
+          }
+        },
+        "y0_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:404.8-406.24"
+          },
+          "connections": {
+            "I": [ 38 ],
+            "O": [ 97 ]
+          }
+        },
+        "y0_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:407.8-409.24"
+          },
+          "connections": {
+            "I": [ 39 ],
+            "O": [ 102 ]
+          }
+        },
+        "y0_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:410.8-412.24"
+          },
+          "connections": {
+            "I": [ 40 ],
+            "O": [ 107 ]
+          }
+        },
+        "y0_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:413.8-415.24"
+          },
+          "connections": {
+            "I": [ 41 ],
+            "O": [ 112 ]
+          }
+        },
+        "y1_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:416.8-418.24"
+          },
+          "connections": {
+            "I": [ 42 ],
+            "O": [ 75 ]
+          }
+        },
+        "y1_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:419.8-421.24"
+          },
+          "connections": {
+            "I": [ 43 ],
+            "O": [ 80 ]
+          }
+        },
+        "y1_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:422.8-424.24"
+          },
+          "connections": {
+            "I": [ 44 ],
+            "O": [ 85 ]
+          }
+        },
+        "y1_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:425.8-427.24"
+          },
+          "connections": {
+            "I": [ 45 ],
+            "O": [ 90 ]
+          }
+        },
+        "y1_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:428.8-430.24"
+          },
+          "connections": {
+            "I": [ 46 ],
+            "O": [ 95 ]
+          }
+        },
+        "y1_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:431.8-433.24"
+          },
+          "connections": {
+            "I": [ 47 ],
+            "O": [ 100 ]
+          }
+        },
+        "y1_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:434.8-436.24"
+          },
+          "connections": {
+            "I": [ 48 ],
+            "O": [ 105 ]
+          }
+        },
+        "y1_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:437.8-439.24"
+          },
+          "connections": {
+            "I": [ 49 ],
+            "O": [ 110 ]
+          }
+        },
+        "y2_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:440.8-442.24"
+          },
+          "connections": {
+            "I": [ 26 ],
+            "O": [ 116 ]
+          }
+        },
+        "y2_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:443.8-445.24"
+          },
+          "connections": {
+            "I": [ 27 ],
+            "O": [ 119 ]
+          }
+        },
+        "y2_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:446.8-448.24"
+          },
+          "connections": {
+            "I": [ 28 ],
+            "O": [ 122 ]
+          }
+        },
+        "y2_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:449.8-451.24"
+          },
+          "connections": {
+            "I": [ 29 ],
+            "O": [ 125 ]
+          }
+        },
+        "y2_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:452.8-454.24"
+          },
+          "connections": {
+            "I": [ 30 ],
+            "O": [ 128 ]
+          }
+        },
+        "y2_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:455.8-457.24"
+          },
+          "connections": {
+            "I": [ 31 ],
+            "O": [ 131 ]
+          }
+        },
+        "y2_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:458.8-460.24"
+          },
+          "connections": {
+            "I": [ 32 ],
+            "O": [ 134 ]
+          }
+        },
+        "y2_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "tiAndNetlist.v:461.8-463.24"
+          },
+          "connections": {
+            "I": [ 33 ],
+            "O": [ 137 ]
+          }
+        }
+      },
+      "netnames": {
+        "q0[0]": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[1]": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[2]": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[3]": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[4]": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[5]": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[6]": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0[7]": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:33.15-33.17"
+          }
+        },
+        "q0_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 74 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 84 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 89 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 94 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 99 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 104 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q0_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 109 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:38.13-38.20"
+          }
+        },
+        "q1[0]": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[1]": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[2]": {
+          "hide_name": 0,
+          "bits": [ 60 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[3]": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[4]": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[5]": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[6]": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1[7]": {
+          "hide_name": 0,
+          "bits": [ 65 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:34.15-34.17"
+          }
+        },
+        "q1_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 114 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 117 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 120 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 123 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 126 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 129 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 132 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q1_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 135 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:40.13-40.20"
+          }
+        },
+        "q2[0]": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[1]": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[2]": {
+          "hide_name": 0,
+          "bits": [ 68 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[3]": {
+          "hide_name": 0,
+          "bits": [ 69 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[4]": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[5]": {
+          "hide_name": 0,
+          "bits": [ 71 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[6]": {
+          "hide_name": 0,
+          "bits": [ 72 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2[7]": {
+          "hide_name": 0,
+          "bits": [ 73 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:35.15-35.17"
+          }
+        },
+        "q2_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 138 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 139 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 140 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 141 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 142 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 143 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 144 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "q2_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 145 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:42.13-42.20"
+          }
+        },
+        "x0[0]": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[1]": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[2]": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[3]": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[4]": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[5]": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[6]": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0[7]": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:28.14-28.16"
+          }
+        },
+        "x0_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 81 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 86 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 91 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 96 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 101 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 106 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x0_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 111 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:44.13-44.20"
+          }
+        },
+        "x1[0]": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[1]": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[2]": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[3]": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[4]": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[5]": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[6]": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1[7]": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x1_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 78 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 83 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 88 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 93 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 98 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 103 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 108 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x1_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 113 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:46.13-46.20"
+          }
+        },
+        "x2[0]": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[1]": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[2]": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[3]": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[4]": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[5]": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[6]": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2[7]": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:27.14-27.16"
+          }
+        },
+        "x2_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 115 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 118 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 121 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 124 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 127 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 130 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 133 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "x2_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 136 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:48.13-48.20"
+          }
+        },
+        "y0[0]": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[1]": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[2]": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[3]": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[4]": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[5]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[6]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0[7]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:31.14-31.16"
+          }
+        },
+        "y0_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 87 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 92 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 97 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 102 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 107 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y0_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 112 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:50.13-50.20"
+          }
+        },
+        "y1[0]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[1]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[2]": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[3]": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[4]": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[5]": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[6]": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1[7]": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:32.14-32.16"
+          }
+        },
+        "y1_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 80 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 85 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 90 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 95 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 100 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 105 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y1_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 110 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:52.13-52.20"
+          }
+        },
+        "y2[0]": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[1]": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[2]": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[3]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[4]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[5]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[6]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2[7]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:30.14-30.16"
+          }
+        },
+        "y2_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 116 ],
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 119 ],
+          "offset": 1,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 122 ],
+          "offset": 2,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 125 ],
+          "offset": 3,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 128 ],
+          "offset": 4,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 131 ],
+          "offset": 5,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 134 ],
+          "offset": 6,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        },
+        "y2_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 137 ],
+          "offset": 7,
+          "attributes": {
+            "src": "tiAndNetlist.v:54.13-54.20"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+18;z[4];random
+17;z[3];random
+16;z[2];random
+15;z[1];random
+4;ax[0];share 1.1
+5;ax[1];share 2.1
+6;ax[2];share 3.1
+7;ax[3];share 4.1
+8;ax[4];share 5.1
+9;bx[0];share 1.2
+10;bx[1];share 2.2
+11;bx[2];share 3.2
+12;bx[3];share 4.2
+13;bx[4];share 5.2
+2;clk;unimportant
+3;rst;unimportant
+14;z[0];random

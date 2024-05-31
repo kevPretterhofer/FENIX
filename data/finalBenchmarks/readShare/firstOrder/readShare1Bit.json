@@ -1,0 +1,643 @@
+{
+  "creator": "Yosys 0.16+31 (git sha1 UNKNOWN, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)",
+  "modules": {
+    "readShare": {
+      "attributes": {
+        "STRUCTURAL_NETLIST": "yes",
+        "start": "3'b000",
+        "readY": "3'b101",
+        "readX": "3'b011",
+        "readData": "3'b001",
+        "clearReg": "3'b110",
+        "clear2": "3'b100",
+        "clear1": "3'b010",
+        "buswidth": "1 ",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "readShareNetlist1Bit.v:20.1-218.10"
+      },
+      "ports": {
+        "clk_i": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst_i": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "start_i": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "X_i": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "Y_i": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "share_o": {
+          "direction": "output",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+        "FSM_sequential_state_p[0]_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1100001000111110"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:64.5-69.49"
+          },
+          "connections": {
+            "I0": [ 8 ],
+            "I1": [ 9 ],
+            "I2": [ 10 ],
+            "I3": [ 11 ],
+            "O": [ 12 ]
+          }
+        },
+        "FSM_sequential_state_p[1]_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1100110110101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:73.5-78.49"
+          },
+          "connections": {
+            "I0": [ 10 ],
+            "I1": [ 9 ],
+            "I2": [ 8 ],
+            "I3": [ 11 ],
+            "O": [ 13 ]
+          }
+        },
+        "FSM_sequential_state_p[2]_i_1": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "11101100"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:82.5-86.49"
+          },
+          "connections": {
+            "I0": [ 10 ],
+            "I1": [ 9 ],
+            "I2": [ 11 ],
+            "O": [ 14 ]
+          }
+        },
+        "FSM_sequential_state_p_reg[0]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "FSM_ENCODED_STATES": "start:000,readData:001,clear1:010,readX:011,clear2:100,readY:101,clearReg:110,",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:90.5-95.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 12 ],
+            "Q": [ 11 ],
+            "R": [ 17 ]
+          }
+        },
+        "FSM_sequential_state_p_reg[1]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "FSM_ENCODED_STATES": "start:000,readData:001,clear1:010,readX:011,clear2:100,readY:101,clearReg:110,",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:99.5-104.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 13 ],
+            "Q": [ 10 ],
+            "R": [ 17 ]
+          }
+        },
+        "FSM_sequential_state_p_reg[2]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "FSM_ENCODED_STATES": "start:000,readData:001,clear1:010,readX:011,clear2:100,readY:101,clearReg:110,",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:108.5-113.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 14 ],
+            "Q": [ 9 ],
+            "R": [ 17 ]
+          }
+        },
+        "VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:114.7-115.24"
+          },
+          "connections": {
+            "P": [ 16 ]
+          }
+        },
+        "X[0]_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11111110001111110000001000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:118.5-124.28"
+          },
+          "connections": {
+            "I0": [ 18 ],
+            "I1": [ 9 ],
+            "I2": [ 10 ],
+            "I3": [ 11 ],
+            "I4": [ 19 ],
+            "O": [ 20 ]
+          }
+        },
+        "X_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:125.8-127.22"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "O": [ 18 ]
+          }
+        },
+        "X_reg[0]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "EXTRACT_RESET": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:131.5-136.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 20 ],
+            "Q": [ 19 ],
+            "R": [ 17 ]
+          }
+        },
+        "Y[0]_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11111110001111110000001000000000"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:140.5-146.28"
+          },
+          "connections": {
+            "I0": [ 21 ],
+            "I1": [ 9 ],
+            "I2": [ 10 ],
+            "I3": [ 11 ],
+            "I4": [ 22 ],
+            "O": [ 23 ]
+          }
+        },
+        "Y_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:147.8-149.22"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 21 ]
+          }
+        },
+        "Y_reg[0]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "EXTRACT_RESET": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:153.5-158.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 23 ],
+            "Q": [ 22 ],
+            "R": [ 17 ]
+          }
+        },
+        "clk_i_IBUF_BUFG_inst": {
+          "hide_name": 0,
+          "type": "BUFG",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:159.8-161.29"
+          },
+          "connections": {
+            "I": [ 24 ],
+            "O": [ 15 ]
+          }
+        },
+        "clk_i_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:162.8-164.24"
+          },
+          "connections": {
+            "I": [ 2 ],
+            "O": [ 24 ]
+          }
+        },
+        "readAddr_p[0]_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000101100001000"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:168.5-173.37"
+          },
+          "connections": {
+            "I0": [ 11 ],
+            "I1": [ 10 ],
+            "I2": [ 9 ],
+            "I3": [ 25 ],
+            "O": [ 26 ]
+          }
+        },
+        "readAddr_p[1]_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010001100100000"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:177.5-182.37"
+          },
+          "connections": {
+            "I0": [ 11 ],
+            "I1": [ 10 ],
+            "I2": [ 9 ],
+            "I3": [ 27 ],
+            "O": [ 28 ]
+          }
+        },
+        "readAddr_p_reg[0]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "EXTRACT_RESET": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:186.5-191.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 26 ],
+            "Q": [ 25 ],
+            "R": [ 17 ]
+          }
+        },
+        "readAddr_p_reg[1]": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "EXTRACT_RESET": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:195.5-200.24"
+          },
+          "connections": {
+            "C": [ 15 ],
+            "CE": [ 16 ],
+            "D": [ 28 ],
+            "Q": [ 27 ],
+            "R": [ 17 ]
+          }
+        },
+        "rst_i_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:201.8-203.24"
+          },
+          "connections": {
+            "I": [ 3 ],
+            "O": [ 17 ]
+          }
+        },
+        "share_o_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:204.8-206.21"
+          },
+          "connections": {
+            "I": [ 29 ],
+            "O": [ 7 ]
+          }
+        },
+        "share_o_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1111100010001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:209.5-214.26"
+          },
+          "connections": {
+            "I0": [ 25 ],
+            "I1": [ 19 ],
+            "I2": [ 27 ],
+            "I3": [ 22 ],
+            "O": [ 29 ]
+          }
+        },
+        "start_i_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "readShareNetlist1Bit.v:215.8-217.26"
+          },
+          "connections": {
+            "I": [ 4 ],
+            "O": [ 8 ]
+          }
+        }
+      },
+      "netnames": {
+        "<const1>": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:34.8-34.17"
+          }
+        },
+        "FSM_sequential_state_p[0]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:35.8-35.42"
+          }
+        },
+        "FSM_sequential_state_p[1]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:36.8-36.42"
+          }
+        },
+        "FSM_sequential_state_p[2]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:37.8-37.42"
+          }
+        },
+        "X[0]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:38.8-38.21"
+          }
+        },
+        "X_i": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:30.14-30.17"
+          }
+        },
+        "X_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:40.13-40.21"
+          }
+        },
+        "X_reg_n_0_[0]": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:41.8-41.22"
+          }
+        },
+        "Y[0]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:42.8-42.21"
+          }
+        },
+        "Y_i": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:31.14-31.17"
+          }
+        },
+        "Y_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:44.13-44.21"
+          }
+        },
+        "Y_reg_n_0_[0]": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:45.8-45.22"
+          }
+        },
+        "clk_i": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:27.9-27.14"
+          }
+        },
+        "clk_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:47.8-47.18"
+          }
+        },
+        "clk_i_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:48.8-48.23"
+          }
+        },
+        "p_0_in": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:49.8-49.14"
+          }
+        },
+        "p_0_in0_in": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:50.8-50.18"
+          }
+        },
+        "readAddr_p[0]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:51.8-51.30"
+          }
+        },
+        "readAddr_p[1]_i_1_n_0": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:52.8-52.30"
+          }
+        },
+        "rst_i": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:28.9-28.14"
+          }
+        },
+        "rst_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:54.8-54.18"
+          }
+        },
+        "share_o": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:32.15-32.22"
+          }
+        },
+        "share_o_OBUF": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:56.13-56.25"
+          }
+        },
+        "start_i": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:29.9-29.16"
+          }
+        },
+        "start_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:58.8-58.20"
+          }
+        },
+        "state_p[0]": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:59.13-59.20"
+          }
+        },
+        "state_p[1]": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "offset": 1,
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:59.13-59.20"
+          }
+        },
+        "state_p[2]": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "offset": 2,
+          "attributes": {
+            "src": "readShareNetlist1Bit.v:59.13-59.20"
+          }
+        }
+      }
+    }
+  }
+}

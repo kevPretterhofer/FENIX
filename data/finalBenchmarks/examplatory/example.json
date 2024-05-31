@@ -1,0 +1,344 @@
+{
+  "creator": "Yosys 0.16+31 (git sha1 UNKNOWN, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)",
+  "modules": {
+    "example": {
+      "attributes": {
+        "STRUCTURAL_NETLIST": "yes",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "exampleNetlist.v:17.1-102.10"
+      },
+      "ports": {
+        "clk_i": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst_i": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "s1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "s2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "r": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "o": {
+          "direction": "output",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+        "VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:49.7-50.24"
+          },
+          "connections": {
+            "P": [ 8 ]
+          }
+        },
+        "clk_i_IBUF_BUFG_inst": {
+          "hide_name": 0,
+          "type": "BUFG",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:51.8-53.29"
+          },
+          "connections": {
+            "I": [ 9 ],
+            "O": [ 10 ]
+          }
+        },
+        "clk_i_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:54.8-56.24"
+          },
+          "connections": {
+            "I": [ 2 ],
+            "O": [ 9 ]
+          }
+        },
+        "flip1_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "EXTRACT_RESET": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:60.5-65.24"
+          },
+          "connections": {
+            "C": [ 10 ],
+            "CE": [ 8 ],
+            "D": [ 11 ],
+            "Q": [ 12 ],
+            "R": [ 13 ]
+          }
+        },
+        "flip2_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "EXTRACT_RESET": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:69.5-74.24"
+          },
+          "connections": {
+            "C": [ 10 ],
+            "CE": [ 8 ],
+            "D": [ 14 ],
+            "Q": [ 15 ],
+            "R": [ 13 ]
+          }
+        },
+        "o_OBUF_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:75.8-77.15"
+          },
+          "connections": {
+            "I": [ 16 ],
+            "O": [ 7 ]
+          }
+        },
+        "r_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:78.8-80.20"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 17 ]
+          }
+        },
+        "rst_i_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:81.8-83.24"
+          },
+          "connections": {
+            "I": [ 3 ],
+            "O": [ 13 ]
+          }
+        },
+        "s1_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:84.8-86.21"
+          },
+          "connections": {
+            "I": [ 4 ],
+            "O": [ 11 ]
+          }
+        },
+        "s2_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:87.8-89.21"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "O": [ 18 ]
+          }
+        },
+        "xor1_inferred_i_1": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:92.5-95.18"
+          },
+          "connections": {
+            "I0": [ 17 ],
+            "I1": [ 12 ],
+            "O": [ 14 ]
+          }
+        },
+        "xor2_inferred_i_1": {
+          "hide_name": 0,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "exampleNetlist.v:98.5-101.18"
+          },
+          "connections": {
+            "I0": [ 18 ],
+            "I1": [ 15 ],
+            "O": [ 16 ]
+          }
+        }
+      },
+      "netnames": {
+        "<const1>": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "exampleNetlist.v:31.8-31.17"
+          }
+        },
+        "clk_i": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "exampleNetlist.v:24.9-24.14"
+          }
+        },
+        "clk_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "exampleNetlist.v:33.8-33.18"
+          }
+        },
+        "clk_i_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "exampleNetlist.v:34.8-34.23"
+          }
+        },
+        "flip1": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "exampleNetlist.v:35.8-35.13"
+          }
+        },
+        "flip2": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "exampleNetlist.v:36.8-36.13"
+          }
+        },
+        "o": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "exampleNetlist.v:29.10-29.11"
+          }
+        },
+        "r": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "exampleNetlist.v:28.9-28.10"
+          }
+        },
+        "r_IBUF": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "exampleNetlist.v:39.8-39.14"
+          }
+        },
+        "rst_i": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "exampleNetlist.v:25.9-25.14"
+          }
+        },
+        "rst_i_IBUF": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "exampleNetlist.v:41.8-41.18"
+          }
+        },
+        "s1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "exampleNetlist.v:26.9-26.11"
+          }
+        },
+        "s1_IBUF": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "exampleNetlist.v:43.8-43.15"
+          }
+        },
+        "s2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "exampleNetlist.v:27.9-27.11"
+          }
+        },
+        "s2_IBUF": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "exampleNetlist.v:45.8-45.15"
+          }
+        },
+        "xor1": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "RTL_KEEP": "true",
+            "src": "exampleNetlist.v:46.32-46.36"
+          }
+        },
+        "xor2": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "RTL_KEEP": "true",
+            "src": "exampleNetlist.v:47.32-47.36"
+          }
+        }
+      }
+    }
+  }
+}

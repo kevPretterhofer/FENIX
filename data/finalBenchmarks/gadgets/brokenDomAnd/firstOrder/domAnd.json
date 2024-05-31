@@ -1,0 +1,2283 @@
+{
+  "creator": "Yosys 0.16+31 (git sha1 UNKNOWN, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)",
+  "modules": {
+    "dom_and_1storder_broken": {
+      "attributes": {
+        "STRUCTURAL_NETLIST": "yes",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "domAndNetlist.v:17.1-364.10"
+      },
+      "ports": {
+        "clk_i": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst_i": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "X0_i[0]": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "X0_i[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 5 ]
+        },
+        "X0_i[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 6 ]
+        },
+        "X0_i[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 7 ]
+        },
+        "X0_i[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 8 ]
+        },
+        "X0_i[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 9 ]
+        },
+        "X0_i[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 10 ]
+        },
+        "X0_i[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 11 ]
+        },
+        "X1_i[0]": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "X1_i[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 13 ]
+        },
+        "X1_i[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 14 ]
+        },
+        "X1_i[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 15 ]
+        },
+        "X1_i[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 16 ]
+        },
+        "X1_i[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 17 ]
+        },
+        "X1_i[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 18 ]
+        },
+        "X1_i[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 19 ]
+        },
+        "Y0_i[0]": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "Y0_i[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 21 ]
+        },
+        "Y0_i[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 22 ]
+        },
+        "Y0_i[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 23 ]
+        },
+        "Y0_i[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 24 ]
+        },
+        "Y0_i[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 25 ]
+        },
+        "Y0_i[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 26 ]
+        },
+        "Y0_i[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 27 ]
+        },
+        "Y1_i[0]": {
+          "direction": "input",
+          "bits": [ 28 ]
+        },
+        "Y1_i[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 29 ]
+        },
+        "Y1_i[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 30 ]
+        },
+        "Y1_i[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 31 ]
+        },
+        "Y1_i[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 32 ]
+        },
+        "Y1_i[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 33 ]
+        },
+        "Y1_i[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 34 ]
+        },
+        "Y1_i[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 35 ]
+        },
+        "Z_i[0]": {
+          "direction": "input",
+          "bits": [ 36 ]
+        },
+        "Z_i[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 37 ]
+        },
+        "Z_i[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 38 ]
+        },
+        "Z_i[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 39 ]
+        },
+        "Z_i[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 40 ]
+        },
+        "Z_i[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 41 ]
+        },
+        "Z_i[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 42 ]
+        },
+        "Z_i[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 43 ]
+        },
+        "Q0_o[0]": {
+          "direction": "output",
+          "bits": [ 44 ]
+        },
+        "Q0_o[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 45 ]
+        },
+        "Q0_o[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 46 ]
+        },
+        "Q0_o[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 47 ]
+        },
+        "Q0_o[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 48 ]
+        },
+        "Q0_o[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 49 ]
+        },
+        "Q0_o[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 50 ]
+        },
+        "Q0_o[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 51 ]
+        },
+        "Q1_o[0]": {
+          "direction": "output",
+          "bits": [ 52 ]
+        },
+        "Q1_o[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 53 ]
+        },
+        "Q1_o[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 54 ]
+        },
+        "Q1_o[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 55 ]
+        },
+        "Q1_o[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 56 ]
+        },
+        "Q1_o[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 57 ]
+        },
+        "Q1_o[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 58 ]
+        },
+        "Q1_o[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 59 ]
+        }
+      },
+      "cells": {
+        "Q0_o_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:52.8-54.21"
+          },
+          "connections": {
+            "I": [ 60 ],
+            "O": [ 44 ]
+          }
+        },
+        "Q0_o_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:58.5-63.26"
+          },
+          "connections": {
+            "I0": [ 61 ],
+            "I1": [ 62 ],
+            "I2": [ 63 ],
+            "I3": [ 64 ],
+            "O": [ 60 ]
+          }
+        },
+        "Q0_o_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:64.8-66.21"
+          },
+          "connections": {
+            "I": [ 65 ],
+            "O": [ 45 ]
+          }
+        },
+        "Q0_o_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:70.5-75.26"
+          },
+          "connections": {
+            "I0": [ 66 ],
+            "I1": [ 67 ],
+            "I2": [ 68 ],
+            "I3": [ 69 ],
+            "O": [ 65 ]
+          }
+        },
+        "Q0_o_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:76.8-78.21"
+          },
+          "connections": {
+            "I": [ 70 ],
+            "O": [ 46 ]
+          }
+        },
+        "Q0_o_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:82.5-87.26"
+          },
+          "connections": {
+            "I0": [ 71 ],
+            "I1": [ 72 ],
+            "I2": [ 73 ],
+            "I3": [ 74 ],
+            "O": [ 70 ]
+          }
+        },
+        "Q0_o_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:88.8-90.21"
+          },
+          "connections": {
+            "I": [ 75 ],
+            "O": [ 47 ]
+          }
+        },
+        "Q0_o_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:94.5-99.26"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 77 ],
+            "I2": [ 78 ],
+            "I3": [ 79 ],
+            "O": [ 75 ]
+          }
+        },
+        "Q0_o_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:100.8-102.21"
+          },
+          "connections": {
+            "I": [ 80 ],
+            "O": [ 48 ]
+          }
+        },
+        "Q0_o_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair4",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:106.5-111.26"
+          },
+          "connections": {
+            "I0": [ 81 ],
+            "I1": [ 82 ],
+            "I2": [ 83 ],
+            "I3": [ 84 ],
+            "O": [ 80 ]
+          }
+        },
+        "Q0_o_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:112.8-114.21"
+          },
+          "connections": {
+            "I": [ 85 ],
+            "O": [ 49 ]
+          }
+        },
+        "Q0_o_OBUF[5]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair5",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:118.5-123.26"
+          },
+          "connections": {
+            "I0": [ 86 ],
+            "I1": [ 87 ],
+            "I2": [ 88 ],
+            "I3": [ 89 ],
+            "O": [ 85 ]
+          }
+        },
+        "Q0_o_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:124.8-126.21"
+          },
+          "connections": {
+            "I": [ 90 ],
+            "O": [ 50 ]
+          }
+        },
+        "Q0_o_OBUF[6]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair6",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:130.5-135.26"
+          },
+          "connections": {
+            "I0": [ 91 ],
+            "I1": [ 92 ],
+            "I2": [ 93 ],
+            "I3": [ 94 ],
+            "O": [ 90 ]
+          }
+        },
+        "Q0_o_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:136.8-138.21"
+          },
+          "connections": {
+            "I": [ 95 ],
+            "O": [ 51 ]
+          }
+        },
+        "Q0_o_OBUF[7]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:142.5-147.26"
+          },
+          "connections": {
+            "I0": [ 96 ],
+            "I1": [ 97 ],
+            "I2": [ 98 ],
+            "I3": [ 99 ],
+            "O": [ 95 ]
+          }
+        },
+        "Q1_o_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:148.8-150.21"
+          },
+          "connections": {
+            "I": [ 100 ],
+            "O": [ 52 ]
+          }
+        },
+        "Q1_o_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:154.5-159.26"
+          },
+          "connections": {
+            "I0": [ 61 ],
+            "I1": [ 101 ],
+            "I2": [ 64 ],
+            "I3": [ 63 ],
+            "O": [ 100 ]
+          }
+        },
+        "Q1_o_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:160.8-162.21"
+          },
+          "connections": {
+            "I": [ 102 ],
+            "O": [ 53 ]
+          }
+        },
+        "Q1_o_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:166.5-171.26"
+          },
+          "connections": {
+            "I0": [ 66 ],
+            "I1": [ 103 ],
+            "I2": [ 69 ],
+            "I3": [ 68 ],
+            "O": [ 102 ]
+          }
+        },
+        "Q1_o_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:172.8-174.21"
+          },
+          "connections": {
+            "I": [ 104 ],
+            "O": [ 54 ]
+          }
+        },
+        "Q1_o_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:178.5-183.26"
+          },
+          "connections": {
+            "I0": [ 71 ],
+            "I1": [ 105 ],
+            "I2": [ 74 ],
+            "I3": [ 73 ],
+            "O": [ 104 ]
+          }
+        },
+        "Q1_o_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:184.8-186.21"
+          },
+          "connections": {
+            "I": [ 106 ],
+            "O": [ 55 ]
+          }
+        },
+        "Q1_o_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:190.5-195.26"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 107 ],
+            "I2": [ 79 ],
+            "I3": [ 78 ],
+            "O": [ 106 ]
+          }
+        },
+        "Q1_o_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:196.8-198.21"
+          },
+          "connections": {
+            "I": [ 108 ],
+            "O": [ 56 ]
+          }
+        },
+        "Q1_o_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair4",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:202.5-207.26"
+          },
+          "connections": {
+            "I0": [ 81 ],
+            "I1": [ 109 ],
+            "I2": [ 84 ],
+            "I3": [ 83 ],
+            "O": [ 108 ]
+          }
+        },
+        "Q1_o_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:208.8-210.21"
+          },
+          "connections": {
+            "I": [ 110 ],
+            "O": [ 57 ]
+          }
+        },
+        "Q1_o_OBUF[5]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair5",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:214.5-219.26"
+          },
+          "connections": {
+            "I0": [ 86 ],
+            "I1": [ 111 ],
+            "I2": [ 89 ],
+            "I3": [ 88 ],
+            "O": [ 110 ]
+          }
+        },
+        "Q1_o_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:220.8-222.21"
+          },
+          "connections": {
+            "I": [ 112 ],
+            "O": [ 58 ]
+          }
+        },
+        "Q1_o_OBUF[6]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair6",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:226.5-231.26"
+          },
+          "connections": {
+            "I0": [ 91 ],
+            "I1": [ 113 ],
+            "I2": [ 94 ],
+            "I3": [ 93 ],
+            "O": [ 112 ]
+          }
+        },
+        "Q1_o_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:232.8-234.21"
+          },
+          "connections": {
+            "I": [ 114 ],
+            "O": [ 59 ]
+          }
+        },
+        "Q1_o_OBUF[7]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010011001101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:238.5-243.26"
+          },
+          "connections": {
+            "I0": [ 96 ],
+            "I1": [ 115 ],
+            "I2": [ 99 ],
+            "I3": [ 98 ],
+            "O": [ 114 ]
+          }
+        },
+        "X0_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:244.8-246.26"
+          },
+          "connections": {
+            "I": [ 4 ],
+            "O": [ 62 ]
+          }
+        },
+        "X0_i_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:247.8-249.26"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "O": [ 67 ]
+          }
+        },
+        "X0_i_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:250.8-252.26"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 72 ]
+          }
+        },
+        "X0_i_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:253.8-255.26"
+          },
+          "connections": {
+            "I": [ 7 ],
+            "O": [ 77 ]
+          }
+        },
+        "X0_i_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:256.8-258.26"
+          },
+          "connections": {
+            "I": [ 8 ],
+            "O": [ 82 ]
+          }
+        },
+        "X0_i_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:259.8-261.26"
+          },
+          "connections": {
+            "I": [ 9 ],
+            "O": [ 87 ]
+          }
+        },
+        "X0_i_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:262.8-264.26"
+          },
+          "connections": {
+            "I": [ 10 ],
+            "O": [ 92 ]
+          }
+        },
+        "X0_i_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:265.8-267.26"
+          },
+          "connections": {
+            "I": [ 11 ],
+            "O": [ 97 ]
+          }
+        },
+        "X1_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:268.8-270.26"
+          },
+          "connections": {
+            "I": [ 12 ],
+            "O": [ 101 ]
+          }
+        },
+        "X1_i_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:271.8-273.26"
+          },
+          "connections": {
+            "I": [ 13 ],
+            "O": [ 103 ]
+          }
+        },
+        "X1_i_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:274.8-276.26"
+          },
+          "connections": {
+            "I": [ 14 ],
+            "O": [ 105 ]
+          }
+        },
+        "X1_i_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:277.8-279.26"
+          },
+          "connections": {
+            "I": [ 15 ],
+            "O": [ 107 ]
+          }
+        },
+        "X1_i_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:280.8-282.26"
+          },
+          "connections": {
+            "I": [ 16 ],
+            "O": [ 109 ]
+          }
+        },
+        "X1_i_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:283.8-285.26"
+          },
+          "connections": {
+            "I": [ 17 ],
+            "O": [ 111 ]
+          }
+        },
+        "X1_i_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:286.8-288.26"
+          },
+          "connections": {
+            "I": [ 18 ],
+            "O": [ 113 ]
+          }
+        },
+        "X1_i_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:289.8-291.26"
+          },
+          "connections": {
+            "I": [ 19 ],
+            "O": [ 115 ]
+          }
+        },
+        "Y0_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:292.8-294.26"
+          },
+          "connections": {
+            "I": [ 20 ],
+            "O": [ 64 ]
+          }
+        },
+        "Y0_i_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:295.8-297.26"
+          },
+          "connections": {
+            "I": [ 21 ],
+            "O": [ 69 ]
+          }
+        },
+        "Y0_i_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:298.8-300.26"
+          },
+          "connections": {
+            "I": [ 22 ],
+            "O": [ 74 ]
+          }
+        },
+        "Y0_i_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:301.8-303.26"
+          },
+          "connections": {
+            "I": [ 23 ],
+            "O": [ 79 ]
+          }
+        },
+        "Y0_i_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:304.8-306.26"
+          },
+          "connections": {
+            "I": [ 24 ],
+            "O": [ 84 ]
+          }
+        },
+        "Y0_i_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:307.8-309.26"
+          },
+          "connections": {
+            "I": [ 25 ],
+            "O": [ 89 ]
+          }
+        },
+        "Y0_i_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:310.8-312.26"
+          },
+          "connections": {
+            "I": [ 26 ],
+            "O": [ 94 ]
+          }
+        },
+        "Y0_i_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:313.8-315.26"
+          },
+          "connections": {
+            "I": [ 27 ],
+            "O": [ 99 ]
+          }
+        },
+        "Y1_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:316.8-318.26"
+          },
+          "connections": {
+            "I": [ 28 ],
+            "O": [ 63 ]
+          }
+        },
+        "Y1_i_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:319.8-321.26"
+          },
+          "connections": {
+            "I": [ 29 ],
+            "O": [ 68 ]
+          }
+        },
+        "Y1_i_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:322.8-324.26"
+          },
+          "connections": {
+            "I": [ 30 ],
+            "O": [ 73 ]
+          }
+        },
+        "Y1_i_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:325.8-327.26"
+          },
+          "connections": {
+            "I": [ 31 ],
+            "O": [ 78 ]
+          }
+        },
+        "Y1_i_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:328.8-330.26"
+          },
+          "connections": {
+            "I": [ 32 ],
+            "O": [ 83 ]
+          }
+        },
+        "Y1_i_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:331.8-333.26"
+          },
+          "connections": {
+            "I": [ 33 ],
+            "O": [ 88 ]
+          }
+        },
+        "Y1_i_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:334.8-336.26"
+          },
+          "connections": {
+            "I": [ 34 ],
+            "O": [ 93 ]
+          }
+        },
+        "Y1_i_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:337.8-339.26"
+          },
+          "connections": {
+            "I": [ 35 ],
+            "O": [ 98 ]
+          }
+        },
+        "Z_i_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:340.8-342.25"
+          },
+          "connections": {
+            "I": [ 36 ],
+            "O": [ 61 ]
+          }
+        },
+        "Z_i_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:343.8-345.25"
+          },
+          "connections": {
+            "I": [ 37 ],
+            "O": [ 66 ]
+          }
+        },
+        "Z_i_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:346.8-348.25"
+          },
+          "connections": {
+            "I": [ 38 ],
+            "O": [ 71 ]
+          }
+        },
+        "Z_i_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:349.8-351.25"
+          },
+          "connections": {
+            "I": [ 39 ],
+            "O": [ 76 ]
+          }
+        },
+        "Z_i_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:352.8-354.25"
+          },
+          "connections": {
+            "I": [ 40 ],
+            "O": [ 81 ]
+          }
+        },
+        "Z_i_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:355.8-357.25"
+          },
+          "connections": {
+            "I": [ 41 ],
+            "O": [ 86 ]
+          }
+        },
+        "Z_i_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:358.8-360.25"
+          },
+          "connections": {
+            "I": [ 42 ],
+            "O": [ 91 ]
+          }
+        },
+        "Z_i_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "domAndNetlist.v:361.8-363.25"
+          },
+          "connections": {
+            "I": [ 43 ],
+            "O": [ 96 ]
+          }
+        }
+      },
+      "netnames": {
+        "Q0_o[0]": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[1]": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[2]": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[3]": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[4]": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[5]": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[6]": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o[7]": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:34.15-34.19"
+          }
+        },
+        "Q0_o_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 60 ],
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 65 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 80 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 85 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 90 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q0_o_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 95 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:38.13-38.22"
+          }
+        },
+        "Q1_o[0]": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[1]": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[2]": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[3]": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[4]": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[5]": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[6]": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o[7]": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:35.15-35.19"
+          }
+        },
+        "Q1_o_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 100 ],
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 102 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 104 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 106 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 108 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 110 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 112 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "Q1_o_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 114 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:40.13-40.22"
+          }
+        },
+        "X0_i[0]": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[1]": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[2]": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[3]": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[4]": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[5]": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[6]": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i[7]": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:29.14-29.18"
+          }
+        },
+        "X0_i_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 72 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 87 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 92 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X0_i_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 97 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:42.13-42.22"
+          }
+        },
+        "X1_i[0]": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[1]": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[2]": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[3]": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[4]": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[5]": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[6]": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i[7]": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:30.14-30.18"
+          }
+        },
+        "X1_i_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 101 ],
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 103 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 105 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 107 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 109 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 111 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 113 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "X1_i_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 115 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:44.13-44.22"
+          }
+        },
+        "Y0_i[0]": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[1]": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[2]": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[3]": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[4]": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[5]": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[6]": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i[7]": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:31.14-31.18"
+          }
+        },
+        "Y0_i_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 69 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 74 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 84 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 89 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 94 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y0_i_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 99 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:46.13-46.22"
+          }
+        },
+        "Y1_i[0]": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[1]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[2]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[3]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[4]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[5]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[6]": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i[7]": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:32.14-32.18"
+          }
+        },
+        "Y1_i_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 68 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 73 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 78 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 83 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 88 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 93 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Y1_i_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 98 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:48.13-48.22"
+          }
+        },
+        "Z_i[0]": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[1]": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[2]": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[3]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[4]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[5]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[6]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i[7]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:33.14-33.17"
+          }
+        },
+        "Z_i_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "offset": 1,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 71 ],
+          "offset": 2,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "offset": 3,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 81 ],
+          "offset": 4,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 86 ],
+          "offset": 5,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 91 ],
+          "offset": 6,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "Z_i_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 96 ],
+          "offset": 7,
+          "attributes": {
+            "src": "domAndNetlist.v:50.13-50.21"
+          }
+        },
+        "clk_i": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "domAndNetlist.v:27.9-27.14"
+          }
+        },
+        "rst_i": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "domAndNetlist.v:28.9-28.14"
+          }
+        }
+      }
+    }
+  }
+}

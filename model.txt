@@ -1,0 +1,928 @@
+(define-fun stableg80v32t0 () Bool
+  false)
+(define-fun transientg112v26t1 () Bool
+  true)
+(define-fun stableg104v30t0 () Bool
+  true)
+(define-fun stableg112v34t1 () Bool
+  false)
+(define-fun stableg114v27t1 () Bool
+  false)
+(define-fun activationg33t0 () Bool
+  false)
+(define-fun stableg102v21t0 () Bool
+  true)
+(define-fun transientg104v38t0 () Bool
+  false)
+(define-fun transientg104v22t0 () Bool
+  false)
+(define-fun transientg100v36t1 () Bool
+  true)
+(define-fun transientg110v17t1 () Bool
+  false)
+(define-fun activationg4t0 () Bool
+  false)
+(define-fun transientg65v5t0 () Bool
+  false)
+(define-fun stableg65v21t1 () Bool
+  true)
+(define-fun transientg114v27t1 () Bool
+  true)
+(define-fun transientg80v40t1 () Bool
+  false)
+(define-fun activationg20t0 () Bool
+  false)
+(define-fun stableg60v4t0 () Bool
+  false)
+(define-fun activationg17t0 () Bool
+  false)
+(define-fun activationg32t0 () Bool
+  false)
+(define-fun activationg35t0 () Bool
+  false)
+(define-fun transientg70v6t1 () Bool
+  false)
+(define-fun transientg102v29t0 () Bool
+  true)
+(define-fun activationg28t0 () Bool
+  false)
+(define-fun transientg60v20t0 () Bool
+  true)
+(define-fun transientg106v39t0 () Bool
+  true)
+(define-fun stableg65v5t1 () Bool
+  false)
+(define-fun transientg75v39t0 () Bool
+  true)
+(define-fun transientg112v42t1 () Bool
+  false)
+(define-fun stableg75v23t1 () Bool
+  false)
+(define-fun stableg114v19t0 () Bool
+  false)
+(define-fun stableg60v20t1 () Bool
+  false)
+(define-fun stableg70v22t1 () Bool
+  true)
+(define-fun stableg104v14t1 () Bool
+  false)
+(define-fun activationg39t0 () Bool
+  false)
+(define-fun activationg6t0 () Bool
+  false)
+(define-fun transientg110v25t0 () Bool
+  false)
+(define-fun activationg104t0 () Bool
+  false)
+(define-fun stableg60v20t0 () Bool
+  false)
+(define-fun transientg85v9t1 () Bool
+  true)
+(define-fun transientg102v21t1 () Bool
+  true)
+(define-fun stableg114v27t0 () Bool
+  true)
+(define-fun transientg112v42t0 () Bool
+  true)
+(define-fun activationg38t0 () Bool
+  false)
+(define-fun stableg95v27t1 () Bool
+  true)
+(define-fun stableg85v9t1 () Bool
+  true)
+(define-fun activationg85t0 () Bool
+  false)
+(define-fun stableg112v18t1 () Bool
+  false)
+(define-fun activationg15t0 () Bool
+  false)
+(define-fun stableg108v24t1 () Bool
+  false)
+(define-fun stableg90v34t0 () Bool
+  false)
+(define-fun transientg95v27t0 () Bool
+  true)
+(define-fun transientg102v37t0 () Bool
+  true)
+(define-fun transientg106v31t1 () Bool
+  true)
+(define-fun stableg100v20t1 () Bool
+  false)
+(define-fun activationg65t1 () Bool
+  false)
+(define-fun transientg80v24t1 () Bool
+  true)
+(define-fun stableg102v29t1 () Bool
+  true)
+(define-fun stableg110v25t1 () Bool
+  false)
+(define-fun activationg108t0 () Bool
+  false)
+(define-fun activationg75t1 () Bool
+  false)
+(define-fun transientg65v37t1 () Bool
+  true)
+(define-fun stableg95v35t0 () Bool
+  true)
+(define-fun stableg106v31t0 () Bool
+  true)
+(define-fun activationg12t0 () Bool
+  false)
+(define-fun transientg108v16t0 () Bool
+  false)
+(define-fun transientg100v20t0 () Bool
+  true)
+(define-fun transientg108v32t0 () Bool
+  false)
+(define-fun stableg80v24t0 () Bool
+  false)
+(define-fun transientg106v15t0 () Bool
+  false)
+(define-fun activationg95t0 () Bool
+  false)
+(define-fun transientg108v24t1 () Bool
+  true)
+(define-fun transientg90v34t0 () Bool
+  true)
+(define-fun stableg112v26t0 () Bool
+  true)
+(define-fun transientg108v40t0 () Bool
+  true)
+(define-fun transientg100v12t0 () Bool
+  true)
+(define-fun transientg75v31t1 () Bool
+  false)
+(define-fun stableg110v25t0 () Bool
+  true)
+(define-fun stableg90v26t1 () Bool
+  false)
+(define-fun activationg106t0 () Bool
+  false)
+(define-fun stableg106v15t1 () Bool
+  false)
+(define-fun transientg95v43t1 () Bool
+  false)
+(define-fun transientg90v10t0 () Bool
+  true)
+(define-fun activationg106t1 () Bool
+  false)
+(define-fun transientg75v23t1 () Bool
+  false)
+(define-fun transientg85v41t1 () Bool
+  true)
+(define-fun transientg102v29t1 () Bool
+  true)
+(define-fun stableg65v29t0 () Bool
+  true)
+(define-fun activationg95t1 () Bool
+  true)
+(define-fun stableg80v8t0 () Bool
+  false)
+(define-fun transientg100v28t0 () Bool
+  true)
+(define-fun transientg104v14t0 () Bool
+  true)
+(define-fun transientg70v30t1 () Bool
+  false)
+(define-fun stableg90v34t1 () Bool
+  false)
+(define-fun stableg90v26t0 () Bool
+  false)
+(define-fun stableg106v31t1 () Bool
+  false)
+(define-fun transientg60v4t0 () Bool
+  false)
+(define-fun activationg108t1 () Bool
+  false)
+(define-fun transientg90v26t0 () Bool
+  true)
+(define-fun stableg75v31t0 () Bool
+  true)
+(define-fun activationg114t0 () Bool
+  false)
+(define-fun activationg112t1 () Bool
+  false)
+(define-fun transientg60v36t0 () Bool
+  true)
+(define-fun stableg90v10t0 () Bool
+  false)
+(define-fun transientg85v25t0 () Bool
+  true)
+(define-fun activationg25t0 () Bool
+  false)
+(define-fun transientg106v23t1 () Bool
+  true)
+(define-fun transientg104v14t1 () Bool
+  false)
+(define-fun activationg114t1 () Bool
+  false)
+(define-fun activationg24t0 () Bool
+  false)
+(define-fun stableg114v35t0 () Bool
+  true)
+(define-fun transientg65v5t1 () Bool
+  true)
+(define-fun transientg90v10t1 () Bool
+  true)
+(define-fun activationg9t0 () Bool
+  false)
+(define-fun stableg102v13t1 () Bool
+  false)
+(define-fun stableg80v8t1 () Bool
+  true)
+(define-fun transientg85v9t0 () Bool
+  false)
+(define-fun activationg34t0 () Bool
+  false)
+(define-fun transientg102v37t1 () Bool
+  true)
+(define-fun activationg7t0 () Bool
+  false)
+(define-fun activationg41t0 () Bool
+  false)
+(define-fun stableg70v6t1 () Bool
+  false)
+(define-fun transientg95v27t1 () Bool
+  true)
+(define-fun transientg102v21t0 () Bool
+  true)
+(define-fun stableg95v27t0 () Bool
+  true)
+(define-fun transientg102v13t0 () Bool
+  true)
+(define-fun stableg112v18t0 () Bool
+  false)
+(define-fun transientg112v26t0 () Bool
+  false)
+(define-fun transientg95v35t1 () Bool
+  true)
+(define-fun transientg114v43t0 () Bool
+  false)
+(define-fun transientg65v21t0 () Bool
+  true)
+(define-fun activationg16t0 () Bool
+  false)
+(define-fun transientg95v43t0 () Bool
+  false)
+(define-fun transientg60v28t1 () Bool
+  true)
+(define-fun transientg95v11t1 () Bool
+  false)
+(define-fun stableg100v12t0 () Bool
+  false)
+(define-fun transientg112v34t0 () Bool
+  true)
+(define-fun stableg80v32t1 () Bool
+  false)
+(define-fun transientg114v43t1 () Bool
+  true)
+(define-fun activationg102t0 () Bool
+  false)
+(define-fun stableg85v9t0 () Bool
+  false)
+(define-fun stableg110v33t0 () Bool
+  true)
+(define-fun transientg104v22t1 () Bool
+  true)
+(define-fun stableg60v4t1 () Bool
+  true)
+(define-fun activationg70t0 () Bool
+  false)
+(define-fun transientg100v12t1 () Bool
+  false)
+(define-fun transientg104v30t0 () Bool
+  false)
+(define-fun transientg65v29t1 () Bool
+  true)
+(define-fun transientg114v27t0 () Bool
+  false)
+(define-fun transientg65v37t0 () Bool
+  true)
+(define-fun transientg70v6t0 () Bool
+  false)
+(define-fun transientg95v11t0 () Bool
+  false)
+(define-fun transientg100v20t1 () Bool
+  true)
+(define-fun activationg60t1 () Bool
+  false)
+(define-fun stableg106v15t0 () Bool
+  false)
+(define-fun activationg10t0 () Bool
+  false)
+(define-fun transientg102v13t1 () Bool
+  false)
+(define-fun transientg108v16t1 () Bool
+  true)
+(define-fun stableg100v28t0 () Bool
+  false)
+(define-fun activationg19t0 () Bool
+  false)
+(define-fun stableg95v11t0 () Bool
+  false)
+(define-fun transientg114v19t1 () Bool
+  true)
+(define-fun stableg70v22t0 () Bool
+  true)
+(define-fun activationg43t0 () Bool
+  false)
+(define-fun activationg90t0 () Bool
+  false)
+(define-fun transientg110v33t1 () Bool
+  true)
+(define-fun stableg70v6t0 () Bool
+  false)
+(define-fun activationg5t0 () Bool
+  false)
+(define-fun transientg110v25t1 () Bool
+  false)
+(define-fun activationg8t0 () Bool
+  false)
+(define-fun activationg22t0 () Bool
+  false)
+(define-fun activationg75t0 () Bool
+  false)
+(define-fun stableg108v16t0 () Bool
+  false)
+(define-fun activationg29t0 () Bool
+  false)
+(define-fun transientg95v35t0 () Bool
+  true)
+(define-fun stableg108v32t0 () Bool
+  false)
+(define-fun stableg106v23t1 () Bool
+  false)
+(define-fun stableg85v25t0 () Bool
+  false)
+(define-fun stableg108v16t1 () Bool
+  false)
+(define-fun stableg75v23t0 () Bool
+  true)
+(define-fun activationg110t1 () Bool
+  false)
+(define-fun stableg70v30t0 () Bool
+  true)
+(define-fun stableg108v24t0 () Bool
+  false)
+(define-fun transientg112v34t1 () Bool
+  true)
+(define-fun transientg110v41t1 () Bool
+  false)
+(define-fun stableg104v22t1 () Bool
+  false)
+(define-fun stableg108v32t1 () Bool
+  false)
+(define-fun activationg80t0 () Bool
+  false)
+(define-fun stableg100v12t1 () Bool
+  false)
+(define-fun stableg60v28t1 () Bool
+  false)
+(define-fun transientg100v36t0 () Bool
+  false)
+(define-fun stableg102v21t1 () Bool
+  true)
+(define-fun transientg108v40t1 () Bool
+  true)
+(define-fun activationg13t0 () Bool
+  false)
+(define-fun activationg102t1 () Bool
+  false)
+(define-fun stableg70v30t1 () Bool
+  true)
+(define-fun stableg106v23t0 () Bool
+  true)
+(define-fun transientg90v42t0 () Bool
+  true)
+(define-fun transientg110v41t0 () Bool
+  true)
+(define-fun transientg70v38t1 () Bool
+  true)
+(define-fun activationg26t0 () Bool
+  false)
+(define-fun transientg80v40t0 () Bool
+  true)
+(define-fun transientg60v36t1 () Bool
+  true)
+(define-fun activationg14t0 () Bool
+  false)
+(define-fun transientg85v41t0 () Bool
+  false)
+(define-fun activationg100t0 () Bool
+  false)
+(define-fun stableg65v29t1 () Bool
+  true)
+(define-fun transientg110v33t0 () Bool
+  true)
+(define-fun transientg112v18t0 () Bool
+  true)
+(define-fun activationg31t0 () Bool
+  false)
+(define-fun activationg42t0 () Bool
+  false)
+(define-fun transientg114v35t0 () Bool
+  true)
+(define-fun transientg70v22t1 () Bool
+  true)
+(define-fun transientg70v30t0 () Bool
+  true)
+(define-fun transientg104v38t1 () Bool
+  false)
+(define-fun transientg65v21t1 () Bool
+  true)
+(define-fun transientg114v19t0 () Bool
+  false)
+(define-fun stableg110v17t0 () Bool
+  false)
+(define-fun transientg80v8t0 () Bool
+  false)
+(define-fun stableg85v25t1 () Bool
+  true)
+(define-fun transientg90v26t1 () Bool
+  true)
+(define-fun stableg102v13t0 () Bool
+  true)
+(define-fun stableg112v26t1 () Bool
+  false)
+(define-fun transientg80v32t1 () Bool
+  false)
+(define-fun transientg114v35t1 () Bool
+  true)
+(define-fun activationg23t0 () Bool
+  false)
+(define-fun transientg70v22t0 () Bool
+  false)
+(define-fun stableg95v35t1 () Bool
+  true)
+(define-fun activationg65t0 () Bool
+  false)
+(define-fun activationg85t1 () Bool
+  false)
+(define-fun transientg75v31t0 () Bool
+  true)
+(define-fun stableg114v19t1 () Bool
+  false)
+(define-fun stableg104v22t0 () Bool
+  true)
+(define-fun stableg100v28t1 () Bool
+  false)
+(define-fun transientg65v29t0 () Bool
+  true)
+(define-fun transientg106v15t1 () Bool
+  false)
+(define-fun transientg108v32t1 () Bool
+  true)
+(define-fun activationg110t0 () Bool
+  false)
+(define-fun transientg85v33t0 () Bool
+  false)
+(define-fun transientg108v24t0 () Bool
+  false)
+(define-fun activationg27t0 () Bool
+  false)
+(define-fun transientg60v20t1 () Bool
+  true)
+(define-fun activationg21t0 () Bool
+  false)
+(define-fun transientg90v42t1 () Bool
+  true)
+(define-fun transientg85v25t1 () Bool
+  true)
+(define-fun transientg70v38t0 () Bool
+  false)
+(define-fun transientg75v7t1 () Bool
+  true)
+(define-fun stableg102v29t0 () Bool
+  true)
+(define-fun stableg80v24t1 () Bool
+  false)
+(define-fun transientg90v34t1 () Bool
+  true)
+(define-fun activationg36t0 () Bool
+  false)
+(define-fun activationg37t0 () Bool
+  false)
+(define-fun stableg90v10t1 () Bool
+  false)
+(define-fun stableg65v21t0 () Bool
+  true)
+(define-fun stableg75v31t1 () Bool
+  false)
+(define-fun stableg85v33t1 () Bool
+  true)
+(define-fun stableg110v33t1 () Bool
+  false)
+(define-fun stableg75v7t1 () Bool
+  false)
+(define-fun stableg114v35t1 () Bool
+  false)
+(define-fun activationg60t0 () Bool
+  false)
+(define-fun transientg80v32t0 () Bool
+  true)
+(define-fun transientg75v39t1 () Bool
+  false)
+(define-fun transientg110v17t0 () Bool
+  true)
+(define-fun transientg60v4t1 () Bool
+  true)
+(define-fun stableg60v28t0 () Bool
+  false)
+(define-fun stableg110v17t1 () Bool
+  false)
+(define-fun transientg106v39t1 () Bool
+  true)
+(define-fun stableg75v7t0 () Bool
+  true)
+(define-fun stableg95v11t1 () Bool
+  true)
+(define-fun activationg30t0 () Bool
+  false)
+(define-fun transientg80v8t1 () Bool
+  false)
+(define-fun activationg104t1 () Bool
+  false)
+(define-fun stableg85v33t0 () Bool
+  false)
+(define-fun activationg40t0 () Bool
+  false)
+(define-fun activationg112t0 () Bool
+  false)
+(define-fun transientg106v23t0 () Bool
+  false)
+(define-fun stableg104v14t0 () Bool
+  true)
+(define-fun transientg80v24t0 () Bool
+  false)
+(define-fun activationg80t1 () Bool
+  false)
+(define-fun transientg104v30t1 () Bool
+  true)
+(define-fun activationg90t1 () Bool
+  false)
+(define-fun activationg70t1 () Bool
+  false)
+(define-fun activationg100t1 () Bool
+  false)
+(define-fun transientg100v28t1 () Bool
+  true)
+(define-fun transientg106v31t0 () Bool
+  true)
+(define-fun stableg65v5t0 () Bool
+  true)
+(define-fun transientg85v33t1 () Bool
+  true)
+(define-fun transientg75v23t0 () Bool
+  false)
+(define-fun stableg100v20t0 () Bool
+  false)
+(define-fun transientg75v7t0 () Bool
+  false)
+(define-fun activationg11t0 () Bool
+  false)
+(define-fun activationg18t0 () Bool
+  false)
+(define-fun stableg112v34t0 () Bool
+  true)
+(define-fun transientg60v28t0 () Bool
+  true)
+(define-fun stableg104v30t1 () Bool
+  false)
+(define-fun transientg112v18t1 () Bool
+  true)
+(define-fun stableg114v43t1 () Bool
+  true)
+(define-fun stableg112v42t1 () Bool
+  true)
+(define-fun stableg110v41t1 () Bool
+  true)
+(define-fun stableg108v40t1 () Bool
+  true)
+(define-fun stableg106v39t1 () Bool
+  true)
+(define-fun stableg104v38t1 () Bool
+  true)
+(define-fun stableg102v37t1 () Bool
+  true)
+(define-fun stableg100v36t1 () Bool
+  true)
+(define-fun stableg95v43t1 () Bool
+  true)
+(define-fun stableg90v42t1 () Bool
+  true)
+(define-fun stableg85v41t1 () Bool
+  true)
+(define-fun stableg80v40t1 () Bool
+  true)
+(define-fun stableg75v39t1 () Bool
+  true)
+(define-fun stableg70v38t1 () Bool
+  true)
+(define-fun stableg65v37t1 () Bool
+  true)
+(define-fun stableg60v36t1 () Bool
+  true)
+(define-fun stableg114v43t0 () Bool
+  true)
+(define-fun stableg112v42t0 () Bool
+  true)
+(define-fun stableg110v41t0 () Bool
+  true)
+(define-fun stableg108v40t0 () Bool
+  true)
+(define-fun stableg106v39t0 () Bool
+  true)
+(define-fun stableg104v38t0 () Bool
+  true)
+(define-fun stableg102v37t0 () Bool
+  true)
+(define-fun stableg100v36t0 () Bool
+  true)
+(define-fun stableg95v43t0 () Bool
+  true)
+(define-fun stableg90v42t0 () Bool
+  true)
+(define-fun stableg85v41t0 () Bool
+  true)
+(define-fun stableg80v40t0 () Bool
+  true)
+(define-fun stableg75v39t0 () Bool
+  true)
+(define-fun stableg70v38t0 () Bool
+  true)
+(define-fun stableg65v37t0 () Bool
+  true)
+(define-fun stableg60v36t0 () Bool
+  true)
+(define-fun secret_bit_6 () Bool
+  false)
+(define-fun secret_bit_7 () Bool
+  false)
+(define-fun secret_bit_8 () Bool
+  false)
+(define-fun secret_bit_1 () Bool
+  false)
+(define-fun secret_bit_14 () Bool
+  false)
+(define-fun secret_bit_2 () Bool
+  false)
+(define-fun secret_bit_15 () Bool
+  false)
+(define-fun secret_bit_16 () Bool
+  true)
+(define-fun secret_bit_9 () Bool
+  false)
+(define-fun secret_bit_10 () Bool
+  false)
+(define-fun secret_bit_11 () Bool
+  false)
+(define-fun secret_bit_12 () Bool
+  false)
+(define-fun secret_bit_13 () Bool
+  false)
+(define-fun secret_bit_3 () Bool
+  false)
+(define-fun secret_bit_4 () Bool
+  false)
+(define-fun secret_bit_5 () Bool
+  false)
+(define-fun checking_gate43 () Bool
+  false)
+(define-fun checking_gate42 () Bool
+  false)
+(define-fun checking_gate41 () Bool
+  false)
+(define-fun checking_gate40 () Bool
+  false)
+(define-fun checking_gate39 () Bool
+  false)
+(define-fun checking_gate38 () Bool
+  false)
+(define-fun checking_gate37 () Bool
+  false)
+(define-fun checking_gate36 () Bool
+  false)
+(define-fun checking_gate17 () Bool
+  false)
+(define-fun checking_gate9 () Bool
+  false)
+(define-fun checking_gate18 () Bool
+  false)
+(define-fun checking_gate10 () Bool
+  false)
+(define-fun checking_gate19 () Bool
+  false)
+(define-fun checking_gate11 () Bool
+  false)
+(define-fun checking_gate12 () Bool
+  false)
+(define-fun checking_gate4 () Bool
+  false)
+(define-fun checking_gate33 () Bool
+  false)
+(define-fun checking_gate25 () Bool
+  false)
+(define-fun checking_gate13 () Bool
+  false)
+(define-fun checking_gate5 () Bool
+  false)
+(define-fun checking_gate34 () Bool
+  false)
+(define-fun checking_gate26 () Bool
+  false)
+(define-fun checking_gate35 () Bool
+  true)
+(define-fun checking_gate27 () Bool
+  true)
+(define-fun checking_gate28 () Bool
+  false)
+(define-fun checking_gate20 () Bool
+  false)
+(define-fun checking_gate29 () Bool
+  false)
+(define-fun checking_gate21 () Bool
+  false)
+(define-fun checking_gate30 () Bool
+  false)
+(define-fun checking_gate22 () Bool
+  false)
+(define-fun checking_gate31 () Bool
+  false)
+(define-fun checking_gate23 () Bool
+  false)
+(define-fun checking_gate32 () Bool
+  false)
+(define-fun checking_gate24 () Bool
+  false)
+(define-fun checking_gate14 () Bool
+  false)
+(define-fun checking_gate6 () Bool
+  false)
+(define-fun checking_gate15 () Bool
+  false)
+(define-fun checking_gate7 () Bool
+  false)
+(define-fun checking_gate16 () Bool
+  false)
+(define-fun checking_gate8 () Bool
+  false)
+(define-fun transientg43v43t0 () Bool
+  true)
+(define-fun stableg43v43t0 () Bool
+  true)
+(define-fun transientg42v42t0 () Bool
+  true)
+(define-fun stableg42v42t0 () Bool
+  true)
+(define-fun transientg41v41t0 () Bool
+  true)
+(define-fun stableg41v41t0 () Bool
+  true)
+(define-fun transientg40v40t0 () Bool
+  true)
+(define-fun stableg40v40t0 () Bool
+  true)
+(define-fun transientg39v39t0 () Bool
+  true)
+(define-fun stableg39v39t0 () Bool
+  true)
+(define-fun transientg38v38t0 () Bool
+  true)
+(define-fun stableg38v38t0 () Bool
+  true)
+(define-fun transientg37v37t0 () Bool
+  true)
+(define-fun stableg37v37t0 () Bool
+  true)
+(define-fun transientg36v36t0 () Bool
+  true)
+(define-fun stableg36v36t0 () Bool
+  true)
+(define-fun transientg35v35t0 () Bool
+  true)
+(define-fun stableg35v35t0 () Bool
+  true)
+(define-fun transientg34v34t0 () Bool
+  true)
+(define-fun stableg34v34t0 () Bool
+  true)
+(define-fun transientg33v33t0 () Bool
+  true)
+(define-fun stableg33v33t0 () Bool
+  true)
+(define-fun transientg32v32t0 () Bool
+  true)
+(define-fun stableg32v32t0 () Bool
+  true)
+(define-fun transientg31v31t0 () Bool
+  true)
+(define-fun stableg31v31t0 () Bool
+  true)
+(define-fun transientg30v30t0 () Bool
+  true)
+(define-fun stableg30v30t0 () Bool
+  true)
+(define-fun transientg29v29t0 () Bool
+  true)
+(define-fun stableg29v29t0 () Bool
+  true)
+(define-fun transientg28v28t0 () Bool
+  true)
+(define-fun stableg28v28t0 () Bool
+  true)
+(define-fun transientg27v27t0 () Bool
+  true)
+(define-fun stableg27v27t0 () Bool
+  true)
+(define-fun transientg26v26t0 () Bool
+  true)
+(define-fun stableg26v26t0 () Bool
+  true)
+(define-fun transientg25v25t0 () Bool
+  true)
+(define-fun stableg25v25t0 () Bool
+  true)
+(define-fun transientg24v24t0 () Bool
+  true)
+(define-fun stableg24v24t0 () Bool
+  true)
+(define-fun transientg23v23t0 () Bool
+  true)
+(define-fun stableg23v23t0 () Bool
+  true)
+(define-fun transientg22v22t0 () Bool
+  true)
+(define-fun stableg22v22t0 () Bool
+  true)
+(define-fun transientg21v21t0 () Bool
+  true)
+(define-fun stableg21v21t0 () Bool
+  true)
+(define-fun transientg20v20t0 () Bool
+  true)
+(define-fun stableg20v20t0 () Bool
+  true)
+(define-fun transientg19v19t0 () Bool
+  true)
+(define-fun stableg19v19t0 () Bool
+  true)
+(define-fun transientg18v18t0 () Bool
+  true)
+(define-fun stableg18v18t0 () Bool
+  true)
+(define-fun transientg17v17t0 () Bool
+  true)
+(define-fun stableg17v17t0 () Bool
+  true)
+(define-fun transientg16v16t0 () Bool
+  true)
+(define-fun stableg16v16t0 () Bool
+  true)
+(define-fun transientg15v15t0 () Bool
+  true)
+(define-fun stableg15v15t0 () Bool
+  true)
+(define-fun transientg14v14t0 () Bool
+  true)
+(define-fun stableg14v14t0 () Bool
+  true)
+(define-fun transientg13v13t0 () Bool
+  true)
+(define-fun stableg13v13t0 () Bool
+  true)
+(define-fun transientg12v12t0 () Bool
+  true)
+(define-fun stableg12v12t0 () Bool
+  true)
+(define-fun transientg11v11t0 () Bool
+  true)
+(define-fun stableg11v11t0 () Bool
+  true)
+(define-fun transientg10v10t0 () Bool
+  true)
+(define-fun stableg10v10t0 () Bool
+  true)
+(define-fun transientg9v9t0 () Bool
+  true)
+(define-fun stableg9v9t0 () Bool
+  true)
+(define-fun transientg8v8t0 () Bool
+  true)
+(define-fun stableg8v8t0 () Bool
+  true)
+(define-fun transientg7v7t0 () Bool
+  true)
+(define-fun stableg7v7t0 () Bool
+  true)
+(define-fun transientg6v6t0 () Bool
+  true)
+(define-fun stableg6v6t0 () Bool
+  true)
+(define-fun transientg5v5t0 () Bool
+  true)
+(define-fun stableg5v5t0 () Bool
+  true)
+(define-fun transientg4v4t0 () Bool
+  true)
+(define-fun stableg4v4t0 () Bool
+  true)

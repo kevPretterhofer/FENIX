@@ -1,0 +1,2046 @@
+{
+  "creator": "Yosys 0.16+31 (git sha1 UNKNOWN, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)",
+  "modules": {
+    "trichina_and": {
+      "attributes": {
+        "STRUCTURAL_NETLIST": "yes",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "trichinaAndNetlist.v:17.1-287.10"
+      },
+      "ports": {
+        "x0[0]": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "x0[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 3 ]
+        },
+        "x0[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 4 ]
+        },
+        "x0[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 5 ]
+        },
+        "x0[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 6 ]
+        },
+        "x0[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 7 ]
+        },
+        "x0[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 8 ]
+        },
+        "x0[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 9 ]
+        },
+        "x1[0]": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "x1[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 11 ]
+        },
+        "x1[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 12 ]
+        },
+        "x1[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 13 ]
+        },
+        "x1[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 14 ]
+        },
+        "x1[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 15 ]
+        },
+        "x1[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 16 ]
+        },
+        "x1[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 17 ]
+        },
+        "y0[0]": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "y0[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 19 ]
+        },
+        "y0[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 20 ]
+        },
+        "y0[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 21 ]
+        },
+        "y0[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 22 ]
+        },
+        "y0[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 23 ]
+        },
+        "y0[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 24 ]
+        },
+        "y0[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 25 ]
+        },
+        "y1[0]": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "y1[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 27 ]
+        },
+        "y1[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 28 ]
+        },
+        "y1[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 29 ]
+        },
+        "y1[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 30 ]
+        },
+        "y1[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 31 ]
+        },
+        "y1[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 32 ]
+        },
+        "y1[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 33 ]
+        },
+        "r0[0]": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "r0[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 35 ]
+        },
+        "r0[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 36 ]
+        },
+        "r0[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 37 ]
+        },
+        "r0[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 38 ]
+        },
+        "r0[5]": {
+          "direction": "input",
+          "offset": 5,
+          "bits": [ 39 ]
+        },
+        "r0[6]": {
+          "direction": "input",
+          "offset": 6,
+          "bits": [ 40 ]
+        },
+        "r0[7]": {
+          "direction": "input",
+          "offset": 7,
+          "bits": [ 41 ]
+        },
+        "o0[0]": {
+          "direction": "output",
+          "bits": [ 42 ]
+        },
+        "o0[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 43 ]
+        },
+        "o0[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 44 ]
+        },
+        "o0[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 45 ]
+        },
+        "o0[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 46 ]
+        },
+        "o0[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 47 ]
+        },
+        "o0[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 48 ]
+        },
+        "o0[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 49 ]
+        },
+        "o1[0]": {
+          "direction": "output",
+          "bits": [ 50 ]
+        },
+        "o1[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 51 ]
+        },
+        "o1[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 52 ]
+        },
+        "o1[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 53 ]
+        },
+        "o1[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 54 ]
+        },
+        "o1[5]": {
+          "direction": "output",
+          "offset": 5,
+          "bits": [ 55 ]
+        },
+        "o1[6]": {
+          "direction": "output",
+          "offset": 6,
+          "bits": [ 56 ]
+        },
+        "o1[7]": {
+          "direction": "output",
+          "offset": 7,
+          "bits": [ 57 ]
+        }
+      },
+      "cells": {
+        "o0_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:47.8-49.19"
+          },
+          "connections": {
+            "I": [ 58 ],
+            "O": [ 42 ]
+          }
+        },
+        "o0_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:52.5-58.24"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 60 ],
+            "I2": [ 61 ],
+            "I3": [ 62 ],
+            "I4": [ 63 ],
+            "O": [ 58 ]
+          }
+        },
+        "o0_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:59.8-61.19"
+          },
+          "connections": {
+            "I": [ 64 ],
+            "O": [ 43 ]
+          }
+        },
+        "o0_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:64.5-70.24"
+          },
+          "connections": {
+            "I0": [ 65 ],
+            "I1": [ 66 ],
+            "I2": [ 67 ],
+            "I3": [ 68 ],
+            "I4": [ 69 ],
+            "O": [ 64 ]
+          }
+        },
+        "o0_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:71.8-73.19"
+          },
+          "connections": {
+            "I": [ 70 ],
+            "O": [ 44 ]
+          }
+        },
+        "o0_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:76.5-82.24"
+          },
+          "connections": {
+            "I0": [ 71 ],
+            "I1": [ 72 ],
+            "I2": [ 73 ],
+            "I3": [ 74 ],
+            "I4": [ 75 ],
+            "O": [ 70 ]
+          }
+        },
+        "o0_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:83.8-85.19"
+          },
+          "connections": {
+            "I": [ 76 ],
+            "O": [ 45 ]
+          }
+        },
+        "o0_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:88.5-94.24"
+          },
+          "connections": {
+            "I0": [ 77 ],
+            "I1": [ 78 ],
+            "I2": [ 79 ],
+            "I3": [ 80 ],
+            "I4": [ 81 ],
+            "O": [ 76 ]
+          }
+        },
+        "o0_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:95.8-97.19"
+          },
+          "connections": {
+            "I": [ 82 ],
+            "O": [ 46 ]
+          }
+        },
+        "o0_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:100.5-106.24"
+          },
+          "connections": {
+            "I0": [ 83 ],
+            "I1": [ 84 ],
+            "I2": [ 85 ],
+            "I3": [ 86 ],
+            "I4": [ 87 ],
+            "O": [ 82 ]
+          }
+        },
+        "o0_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:107.8-109.19"
+          },
+          "connections": {
+            "I": [ 88 ],
+            "O": [ 47 ]
+          }
+        },
+        "o0_OBUF[5]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:112.5-118.24"
+          },
+          "connections": {
+            "I0": [ 89 ],
+            "I1": [ 90 ],
+            "I2": [ 91 ],
+            "I3": [ 92 ],
+            "I4": [ 93 ],
+            "O": [ 88 ]
+          }
+        },
+        "o0_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:119.8-121.19"
+          },
+          "connections": {
+            "I": [ 94 ],
+            "O": [ 48 ]
+          }
+        },
+        "o0_OBUF[6]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:124.5-130.24"
+          },
+          "connections": {
+            "I0": [ 95 ],
+            "I1": [ 96 ],
+            "I2": [ 97 ],
+            "I3": [ 98 ],
+            "I4": [ 99 ],
+            "O": [ 94 ]
+          }
+        },
+        "o0_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:131.8-133.19"
+          },
+          "connections": {
+            "I": [ 100 ],
+            "O": [ 49 ]
+          }
+        },
+        "o0_OBUF[7]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT5",
+          "parameters": {
+            "INIT": "11100001110100101011010001111000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:136.5-142.24"
+          },
+          "connections": {
+            "I0": [ 101 ],
+            "I1": [ 102 ],
+            "I2": [ 103 ],
+            "I3": [ 104 ],
+            "I4": [ 105 ],
+            "O": [ 100 ]
+          }
+        },
+        "o1_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:143.8-145.19"
+          },
+          "connections": {
+            "I": [ 61 ],
+            "O": [ 50 ]
+          }
+        },
+        "o1_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:146.8-148.19"
+          },
+          "connections": {
+            "I": [ 67 ],
+            "O": [ 51 ]
+          }
+        },
+        "o1_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:149.8-151.19"
+          },
+          "connections": {
+            "I": [ 73 ],
+            "O": [ 52 ]
+          }
+        },
+        "o1_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:152.8-154.19"
+          },
+          "connections": {
+            "I": [ 79 ],
+            "O": [ 53 ]
+          }
+        },
+        "o1_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:155.8-157.19"
+          },
+          "connections": {
+            "I": [ 85 ],
+            "O": [ 54 ]
+          }
+        },
+        "o1_OBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:158.8-160.19"
+          },
+          "connections": {
+            "I": [ 91 ],
+            "O": [ 55 ]
+          }
+        },
+        "o1_OBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:161.8-163.19"
+          },
+          "connections": {
+            "I": [ 97 ],
+            "O": [ 56 ]
+          }
+        },
+        "o1_OBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:164.8-166.19"
+          },
+          "connections": {
+            "I": [ 103 ],
+            "O": [ 57 ]
+          }
+        },
+        "r0_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:167.8-169.24"
+          },
+          "connections": {
+            "I": [ 34 ],
+            "O": [ 61 ]
+          }
+        },
+        "r0_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:170.8-172.24"
+          },
+          "connections": {
+            "I": [ 35 ],
+            "O": [ 67 ]
+          }
+        },
+        "r0_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:173.8-175.24"
+          },
+          "connections": {
+            "I": [ 36 ],
+            "O": [ 73 ]
+          }
+        },
+        "r0_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:176.8-178.24"
+          },
+          "connections": {
+            "I": [ 37 ],
+            "O": [ 79 ]
+          }
+        },
+        "r0_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:179.8-181.24"
+          },
+          "connections": {
+            "I": [ 38 ],
+            "O": [ 85 ]
+          }
+        },
+        "r0_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:182.8-184.24"
+          },
+          "connections": {
+            "I": [ 39 ],
+            "O": [ 91 ]
+          }
+        },
+        "r0_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:185.8-187.24"
+          },
+          "connections": {
+            "I": [ 40 ],
+            "O": [ 97 ]
+          }
+        },
+        "r0_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:188.8-190.24"
+          },
+          "connections": {
+            "I": [ 41 ],
+            "O": [ 103 ]
+          }
+        },
+        "x0_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:191.8-193.24"
+          },
+          "connections": {
+            "I": [ 2 ],
+            "O": [ 60 ]
+          }
+        },
+        "x0_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:194.8-196.24"
+          },
+          "connections": {
+            "I": [ 3 ],
+            "O": [ 66 ]
+          }
+        },
+        "x0_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:197.8-199.24"
+          },
+          "connections": {
+            "I": [ 4 ],
+            "O": [ 72 ]
+          }
+        },
+        "x0_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:200.8-202.24"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "O": [ 78 ]
+          }
+        },
+        "x0_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:203.8-205.24"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 84 ]
+          }
+        },
+        "x0_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:206.8-208.24"
+          },
+          "connections": {
+            "I": [ 7 ],
+            "O": [ 90 ]
+          }
+        },
+        "x0_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:209.8-211.24"
+          },
+          "connections": {
+            "I": [ 8 ],
+            "O": [ 96 ]
+          }
+        },
+        "x0_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:212.8-214.24"
+          },
+          "connections": {
+            "I": [ 9 ],
+            "O": [ 102 ]
+          }
+        },
+        "x1_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:215.8-217.24"
+          },
+          "connections": {
+            "I": [ 10 ],
+            "O": [ 63 ]
+          }
+        },
+        "x1_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:218.8-220.24"
+          },
+          "connections": {
+            "I": [ 11 ],
+            "O": [ 69 ]
+          }
+        },
+        "x1_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:221.8-223.24"
+          },
+          "connections": {
+            "I": [ 12 ],
+            "O": [ 75 ]
+          }
+        },
+        "x1_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:224.8-226.24"
+          },
+          "connections": {
+            "I": [ 13 ],
+            "O": [ 81 ]
+          }
+        },
+        "x1_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:227.8-229.24"
+          },
+          "connections": {
+            "I": [ 14 ],
+            "O": [ 87 ]
+          }
+        },
+        "x1_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:230.8-232.24"
+          },
+          "connections": {
+            "I": [ 15 ],
+            "O": [ 93 ]
+          }
+        },
+        "x1_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:233.8-235.24"
+          },
+          "connections": {
+            "I": [ 16 ],
+            "O": [ 99 ]
+          }
+        },
+        "x1_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:236.8-238.24"
+          },
+          "connections": {
+            "I": [ 17 ],
+            "O": [ 105 ]
+          }
+        },
+        "y0_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:239.8-241.24"
+          },
+          "connections": {
+            "I": [ 18 ],
+            "O": [ 59 ]
+          }
+        },
+        "y0_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:242.8-244.24"
+          },
+          "connections": {
+            "I": [ 19 ],
+            "O": [ 65 ]
+          }
+        },
+        "y0_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:245.8-247.24"
+          },
+          "connections": {
+            "I": [ 20 ],
+            "O": [ 71 ]
+          }
+        },
+        "y0_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:248.8-250.24"
+          },
+          "connections": {
+            "I": [ 21 ],
+            "O": [ 77 ]
+          }
+        },
+        "y0_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:251.8-253.24"
+          },
+          "connections": {
+            "I": [ 22 ],
+            "O": [ 83 ]
+          }
+        },
+        "y0_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:254.8-256.24"
+          },
+          "connections": {
+            "I": [ 23 ],
+            "O": [ 89 ]
+          }
+        },
+        "y0_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:257.8-259.24"
+          },
+          "connections": {
+            "I": [ 24 ],
+            "O": [ 95 ]
+          }
+        },
+        "y0_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:260.8-262.24"
+          },
+          "connections": {
+            "I": [ 25 ],
+            "O": [ 101 ]
+          }
+        },
+        "y1_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:263.8-265.24"
+          },
+          "connections": {
+            "I": [ 26 ],
+            "O": [ 62 ]
+          }
+        },
+        "y1_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:266.8-268.24"
+          },
+          "connections": {
+            "I": [ 27 ],
+            "O": [ 68 ]
+          }
+        },
+        "y1_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:269.8-271.24"
+          },
+          "connections": {
+            "I": [ 28 ],
+            "O": [ 74 ]
+          }
+        },
+        "y1_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:272.8-274.24"
+          },
+          "connections": {
+            "I": [ 29 ],
+            "O": [ 80 ]
+          }
+        },
+        "y1_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:275.8-277.24"
+          },
+          "connections": {
+            "I": [ 30 ],
+            "O": [ 86 ]
+          }
+        },
+        "y1_IBUF[5]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:278.8-280.24"
+          },
+          "connections": {
+            "I": [ 31 ],
+            "O": [ 92 ]
+          }
+        },
+        "y1_IBUF[6]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:281.8-283.24"
+          },
+          "connections": {
+            "I": [ 32 ],
+            "O": [ 98 ]
+          }
+        },
+        "y1_IBUF[7]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "trichinaAndNetlist.v:284.8-286.24"
+          },
+          "connections": {
+            "I": [ 33 ],
+            "O": [ 104 ]
+          }
+        }
+      },
+      "netnames": {
+        "o0[0]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[1]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[2]": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[3]": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[4]": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[5]": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[6]": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0[7]": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:30.15-30.17"
+          }
+        },
+        "o0_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 88 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 94 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o0_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 100 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:34.13-34.20"
+          }
+        },
+        "o1[0]": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[1]": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[2]": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[3]": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[4]": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[5]": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[6]": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1[7]": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:31.15-31.17"
+          }
+        },
+        "o1_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 73 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 85 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 91 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 97 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "o1_OBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 103 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:36.13-36.20"
+          }
+        },
+        "r0[0]": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[1]": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[2]": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[3]": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[4]": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[5]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[6]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "r0[7]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:29.14-29.16"
+          }
+        },
+        "x0[0]": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[1]": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[2]": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[3]": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[4]": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[5]": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[6]": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0[7]": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:25.14-25.16"
+          }
+        },
+        "x0_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 60 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 72 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 78 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 84 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 90 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 96 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x0_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 102 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:39.13-39.20"
+          }
+        },
+        "x1[0]": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[1]": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[2]": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[3]": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[4]": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[5]": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[6]": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1[7]": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:26.14-26.16"
+          }
+        },
+        "x1_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 69 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 81 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 87 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 93 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 99 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "x1_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 105 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:41.13-41.20"
+          }
+        },
+        "y0[0]": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[1]": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[2]": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[3]": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[4]": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[5]": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[6]": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0[7]": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:27.14-27.16"
+          }
+        },
+        "y0_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 65 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 71 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 83 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 89 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 95 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y0_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 101 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:43.13-43.20"
+          }
+        },
+        "y1[0]": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[1]": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[2]": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[3]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[4]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[5]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[6]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1[7]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:28.14-28.16"
+          }
+        },
+        "y1_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 68 ],
+          "offset": 1,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 74 ],
+          "offset": 2,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 80 ],
+          "offset": 3,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 86 ],
+          "offset": 4,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[5]": {
+          "hide_name": 0,
+          "bits": [ 92 ],
+          "offset": 5,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[6]": {
+          "hide_name": 0,
+          "bits": [ 98 ],
+          "offset": 6,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        },
+        "y1_IBUF[7]": {
+          "hide_name": 0,
+          "bits": [ 104 ],
+          "offset": 7,
+          "attributes": {
+            "src": "trichinaAndNetlist.v:45.13-45.20"
+          }
+        }
+      }
+    }
+  }
+}

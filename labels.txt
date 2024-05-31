@@ -1,0 +1,16 @@
+3;rst_i;unimportant
+2;clk_i;unimportant
+17;Z5_i;unimportant
+4;X0_i;unimportant
+5;X1_i;unimportant
+6;X2_i;unimportant
+7;X3_i;unimportant
+8;Y0_i;unimportant
+9;Y1_i;unimportant
+10;Y2_i;unimportant
+11;Y3_i;unimportant
+12;Z0_i;unimportant
+13;Z1_i;unimportant
+14;Z2_i;unimportant
+15;Z3_i;unimportant
+16;Z4_i;unimportant

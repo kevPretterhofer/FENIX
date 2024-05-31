@@ -1,0 +1,2263 @@
+{
+  "creator": "Yosys 0.16+31 (git sha1 UNKNOWN, gcc 9.4.0-1ubuntu1~20.04.1 -fPIC -Os)",
+  "modules": {
+    "dom_keccak_sbox": {
+      "attributes": {
+        "STRUCTURAL_NETLIST": "yes",
+        "top": "00000000000000000000000000000001",
+        "src": "dom_keccak_sboxNetlist.v:426.1-582.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "ax[0]": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "ax[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 5 ]
+        },
+        "ax[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 6 ]
+        },
+        "ax[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 7 ]
+        },
+        "ax[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 8 ]
+        },
+        "bx[0]": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "bx[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 10 ]
+        },
+        "bx[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 11 ]
+        },
+        "bx[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 12 ]
+        },
+        "bx[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 13 ]
+        },
+        "z[0]": {
+          "direction": "input",
+          "bits": [ 14 ]
+        },
+        "z[1]": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [ 15 ]
+        },
+        "z[2]": {
+          "direction": "input",
+          "offset": 2,
+          "bits": [ 16 ]
+        },
+        "z[3]": {
+          "direction": "input",
+          "offset": 3,
+          "bits": [ 17 ]
+        },
+        "z[4]": {
+          "direction": "input",
+          "offset": 4,
+          "bits": [ 18 ]
+        },
+        "ay[0]": {
+          "direction": "output",
+          "bits": [ 19 ]
+        },
+        "ay[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 20 ]
+        },
+        "ay[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 21 ]
+        },
+        "ay[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 22 ]
+        },
+        "ay[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 23 ]
+        },
+        "by[0]": {
+          "direction": "output",
+          "bits": [ 24 ]
+        },
+        "by[1]": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [ 25 ]
+        },
+        "by[2]": {
+          "direction": "output",
+          "offset": 2,
+          "bits": [ 26 ]
+        },
+        "by[3]": {
+          "direction": "output",
+          "offset": 3,
+          "bits": [ 27 ]
+        },
+        "by[4]": {
+          "direction": "output",
+          "offset": 4,
+          "bits": [ 28 ]
+        }
+      },
+      "cells": {
+        "ax_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:458.8-460.24"
+          },
+          "connections": {
+            "I": [ 4 ],
+            "O": [ 29 ]
+          }
+        },
+        "ax_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:461.8-463.24"
+          },
+          "connections": {
+            "I": [ 5 ],
+            "O": [ 30 ]
+          }
+        },
+        "ax_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:464.8-466.24"
+          },
+          "connections": {
+            "I": [ 6 ],
+            "O": [ 31 ]
+          }
+        },
+        "ax_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:467.8-469.24"
+          },
+          "connections": {
+            "I": [ 7 ],
+            "O": [ 32 ]
+          }
+        },
+        "ax_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:470.8-472.24"
+          },
+          "connections": {
+            "I": [ 8 ],
+            "O": [ 33 ]
+          }
+        },
+        "ay_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:473.8-475.19"
+          },
+          "connections": {
+            "I": [ 34 ],
+            "O": [ 19 ]
+          }
+        },
+        "ay_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:476.8-478.19"
+          },
+          "connections": {
+            "I": [ 35 ],
+            "O": [ 20 ]
+          }
+        },
+        "ay_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:479.8-481.19"
+          },
+          "connections": {
+            "I": [ 36 ],
+            "O": [ 21 ]
+          }
+        },
+        "ay_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:482.8-484.19"
+          },
+          "connections": {
+            "I": [ 37 ],
+            "O": [ 22 ]
+          }
+        },
+        "ay_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:485.8-487.19"
+          },
+          "connections": {
+            "I": [ 38 ],
+            "O": [ 23 ]
+          }
+        },
+        "bx_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:488.8-490.24"
+          },
+          "connections": {
+            "I": [ 9 ],
+            "O": [ 39 ]
+          }
+        },
+        "bx_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:491.8-493.24"
+          },
+          "connections": {
+            "I": [ 10 ],
+            "O": [ 40 ]
+          }
+        },
+        "bx_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:494.8-496.24"
+          },
+          "connections": {
+            "I": [ 11 ],
+            "O": [ 41 ]
+          }
+        },
+        "bx_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:497.8-499.24"
+          },
+          "connections": {
+            "I": [ 12 ],
+            "O": [ 42 ]
+          }
+        },
+        "bx_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:500.8-502.24"
+          },
+          "connections": {
+            "I": [ 13 ],
+            "O": [ 43 ]
+          }
+        },
+        "by_OBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:503.8-505.19"
+          },
+          "connections": {
+            "I": [ 44 ],
+            "O": [ 24 ]
+          }
+        },
+        "by_OBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:506.8-508.19"
+          },
+          "connections": {
+            "I": [ 45 ],
+            "O": [ 25 ]
+          }
+        },
+        "by_OBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:509.8-511.19"
+          },
+          "connections": {
+            "I": [ 46 ],
+            "O": [ 26 ]
+          }
+        },
+        "by_OBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:512.8-514.19"
+          },
+          "connections": {
+            "I": [ 47 ],
+            "O": [ 27 ]
+          }
+        },
+        "by_OBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "OBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:515.8-517.19"
+          },
+          "connections": {
+            "I": [ 48 ],
+            "O": [ 28 ]
+          }
+        },
+        "clk_IBUF_BUFG_inst": {
+          "hide_name": 0,
+          "type": "BUFG",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:518.8-520.27"
+          },
+          "connections": {
+            "I": [ 49 ],
+            "O": [ 50 ]
+          }
+        },
+        "clk_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:521.8-523.22"
+          },
+          "connections": {
+            "I": [ 2 ],
+            "O": [ 49 ]
+          }
+        },
+        "genblk1[0].dm0.VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 VCC",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:45.7-46.24"
+          },
+          "connections": {
+            "P": [ 51 ]
+          }
+        },
+        "genblk1[0].dm0.ay_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0010110111010010"
+          },
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 ay_OBUF[0]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:49.5-54.21"
+          },
+          "connections": {
+            "I0": [ 31 ],
+            "I1": [ 30 ],
+            "I2": [ 52 ],
+            "I3": [ 29 ],
+            "O": [ 34 ]
+          }
+        },
+        "genblk1[0].dm0.by_OBUF[0]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000011101111000"
+          },
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 by_OBUF[0]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:57.5-62.21"
+          },
+          "connections": {
+            "I0": [ 40 ],
+            "I1": [ 41 ],
+            "I2": [ 53 ],
+            "I3": [ 39 ],
+            "O": [ 44 ]
+          }
+        },
+        "genblk1[0].dm0.tmpa_i_1": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10011010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair0",
+            "hdlname": "genblk1[0].dm0 tmpa_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:66.5-70.19"
+          },
+          "connections": {
+            "I0": [ 54 ],
+            "I1": [ 30 ],
+            "I2": [ 41 ],
+            "O": [ 55 ]
+          }
+        },
+        "genblk1[0].dm0.tmpa_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 tmpa_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:73.5-78.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 51 ],
+            "D": [ 55 ],
+            "Q": [ 52 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[0].dm0.tmpb_i_1": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair0",
+            "hdlname": "genblk1[0].dm0 tmpb_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:82.5-86.19"
+          },
+          "connections": {
+            "I0": [ 54 ],
+            "I1": [ 40 ],
+            "I2": [ 31 ],
+            "O": [ 57 ]
+          }
+        },
+        "genblk1[0].dm0.tmpb_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 tmpb_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:89.5-94.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 51 ],
+            "D": [ 57 ],
+            "Q": [ 53 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[1].dm0.VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 VCC",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:127.7-128.24"
+          },
+          "connections": {
+            "P": [ 58 ]
+          }
+        },
+        "genblk1[1].dm0.ay_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0010110111010010"
+          },
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 ay_OBUF[1]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:131.5-136.21"
+          },
+          "connections": {
+            "I0": [ 32 ],
+            "I1": [ 31 ],
+            "I2": [ 59 ],
+            "I3": [ 30 ],
+            "O": [ 35 ]
+          }
+        },
+        "genblk1[1].dm0.by_OBUF[1]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000011101111000"
+          },
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 by_OBUF[1]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:139.5-144.21"
+          },
+          "connections": {
+            "I0": [ 41 ],
+            "I1": [ 42 ],
+            "I2": [ 60 ],
+            "I3": [ 40 ],
+            "O": [ 45 ]
+          }
+        },
+        "genblk1[1].dm0.tmpa_i_1__0": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10011010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair1",
+            "hdlname": "genblk1[1].dm0 tmpa_i_1__0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:148.5-152.19"
+          },
+          "connections": {
+            "I0": [ 61 ],
+            "I1": [ 31 ],
+            "I2": [ 42 ],
+            "O": [ 62 ]
+          }
+        },
+        "genblk1[1].dm0.tmpa_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 tmpa_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:155.5-160.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 58 ],
+            "D": [ 62 ],
+            "Q": [ 59 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[1].dm0.tmpb_i_1__0": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair1",
+            "hdlname": "genblk1[1].dm0 tmpb_i_1__0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:164.5-168.19"
+          },
+          "connections": {
+            "I0": [ 61 ],
+            "I1": [ 41 ],
+            "I2": [ 32 ],
+            "O": [ 63 ]
+          }
+        },
+        "genblk1[1].dm0.tmpb_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 tmpb_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:171.5-176.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 58 ],
+            "D": [ 63 ],
+            "Q": [ 60 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[2].dm0.VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 VCC",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:209.7-210.24"
+          },
+          "connections": {
+            "P": [ 64 ]
+          }
+        },
+        "genblk1[2].dm0.ay_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0010110111010010"
+          },
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 ay_OBUF[2]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:213.5-218.21"
+          },
+          "connections": {
+            "I0": [ 33 ],
+            "I1": [ 32 ],
+            "I2": [ 65 ],
+            "I3": [ 31 ],
+            "O": [ 36 ]
+          }
+        },
+        "genblk1[2].dm0.by_OBUF[2]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000011101111000"
+          },
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 by_OBUF[2]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:221.5-226.21"
+          },
+          "connections": {
+            "I0": [ 42 ],
+            "I1": [ 43 ],
+            "I2": [ 66 ],
+            "I3": [ 41 ],
+            "O": [ 46 ]
+          }
+        },
+        "genblk1[2].dm0.tmpa_i_1__1": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10011010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair2",
+            "hdlname": "genblk1[2].dm0 tmpa_i_1__1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:230.5-234.19"
+          },
+          "connections": {
+            "I0": [ 67 ],
+            "I1": [ 32 ],
+            "I2": [ 43 ],
+            "O": [ 68 ]
+          }
+        },
+        "genblk1[2].dm0.tmpa_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 tmpa_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:237.5-242.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 64 ],
+            "D": [ 68 ],
+            "Q": [ 65 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[2].dm0.tmpb_i_1__1": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair2",
+            "hdlname": "genblk1[2].dm0 tmpb_i_1__1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:246.5-250.19"
+          },
+          "connections": {
+            "I0": [ 67 ],
+            "I1": [ 42 ],
+            "I2": [ 33 ],
+            "O": [ 69 ]
+          }
+        },
+        "genblk1[2].dm0.tmpb_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 tmpb_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:253.5-258.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 64 ],
+            "D": [ 69 ],
+            "Q": [ 66 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[3].dm0.VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 VCC",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:291.7-292.24"
+          },
+          "connections": {
+            "P": [ 70 ]
+          }
+        },
+        "genblk1[3].dm0.ay_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0010110111010010"
+          },
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 ay_OBUF[3]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:295.5-300.21"
+          },
+          "connections": {
+            "I0": [ 29 ],
+            "I1": [ 33 ],
+            "I2": [ 71 ],
+            "I3": [ 32 ],
+            "O": [ 37 ]
+          }
+        },
+        "genblk1[3].dm0.by_OBUF[3]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000011101111000"
+          },
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 by_OBUF[3]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:303.5-308.21"
+          },
+          "connections": {
+            "I0": [ 43 ],
+            "I1": [ 39 ],
+            "I2": [ 72 ],
+            "I3": [ 42 ],
+            "O": [ 47 ]
+          }
+        },
+        "genblk1[3].dm0.tmpa_i_1__2": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10011010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair3",
+            "hdlname": "genblk1[3].dm0 tmpa_i_1__2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:312.5-316.19"
+          },
+          "connections": {
+            "I0": [ 73 ],
+            "I1": [ 33 ],
+            "I2": [ 39 ],
+            "O": [ 74 ]
+          }
+        },
+        "genblk1[3].dm0.tmpa_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 tmpa_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:319.5-324.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 70 ],
+            "D": [ 74 ],
+            "Q": [ 71 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[3].dm0.tmpb_i_1__2": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair3",
+            "hdlname": "genblk1[3].dm0 tmpb_i_1__2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:328.5-332.19"
+          },
+          "connections": {
+            "I0": [ 73 ],
+            "I1": [ 43 ],
+            "I2": [ 29 ],
+            "O": [ 75 ]
+          }
+        },
+        "genblk1[3].dm0.tmpb_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 tmpb_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:335.5-340.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 70 ],
+            "D": [ 75 ],
+            "Q": [ 72 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[4].dm0.VCC": {
+          "hide_name": 0,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 VCC",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:373.7-374.24"
+          },
+          "connections": {
+            "P": [ 76 ]
+          }
+        },
+        "genblk1[4].dm0.ay_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0010110111010010"
+          },
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 ay_OBUF[4]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:377.5-382.21"
+          },
+          "connections": {
+            "I0": [ 30 ],
+            "I1": [ 29 ],
+            "I2": [ 77 ],
+            "I3": [ 33 ],
+            "O": [ 38 ]
+          }
+        },
+        "genblk1[4].dm0.by_OBUF[4]_inst_i_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000011101111000"
+          },
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 by_OBUF[4]_inst_i_1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:385.5-390.21"
+          },
+          "connections": {
+            "I0": [ 39 ],
+            "I1": [ 40 ],
+            "I2": [ 78 ],
+            "I3": [ 43 ],
+            "O": [ 48 ]
+          }
+        },
+        "genblk1[4].dm0.tmpa_i_1__3": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10011010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair4",
+            "hdlname": "genblk1[4].dm0 tmpa_i_1__3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:394.5-398.19"
+          },
+          "connections": {
+            "I0": [ 79 ],
+            "I1": [ 29 ],
+            "I2": [ 40 ],
+            "O": [ 80 ]
+          }
+        },
+        "genblk1[4].dm0.tmpa_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 tmpa_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:401.5-406.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 76 ],
+            "D": [ 80 ],
+            "Q": [ 77 ],
+            "R": [ 56 ]
+          }
+        },
+        "genblk1[4].dm0.tmpb_i_1__3": {
+          "hide_name": 0,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01101010"
+          },
+          "attributes": {
+            "SOFT_HLUTNM": "soft_lutpair4",
+            "hdlname": "genblk1[4].dm0 tmpb_i_1__3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:410.5-414.19"
+          },
+          "connections": {
+            "I0": [ 79 ],
+            "I1": [ 39 ],
+            "I2": [ 30 ],
+            "O": [ 81 ]
+          }
+        },
+        "genblk1[4].dm0.tmpb_reg": {
+          "hide_name": 0,
+          "type": "FDRE",
+          "parameters": {
+            "INIT": "0"
+          },
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 tmpb_reg",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:417.5-422.22"
+          },
+          "connections": {
+            "C": [ 50 ],
+            "CE": [ 76 ],
+            "D": [ 81 ],
+            "Q": [ 78 ],
+            "R": [ 56 ]
+          }
+        },
+        "rst_IBUF_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:564.8-566.22"
+          },
+          "connections": {
+            "I": [ 3 ],
+            "O": [ 56 ]
+          }
+        },
+        "z_IBUF[0]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:567.8-569.23"
+          },
+          "connections": {
+            "I": [ 14 ],
+            "O": [ 54 ]
+          }
+        },
+        "z_IBUF[1]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:570.8-572.23"
+          },
+          "connections": {
+            "I": [ 15 ],
+            "O": [ 61 ]
+          }
+        },
+        "z_IBUF[2]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:573.8-575.23"
+          },
+          "connections": {
+            "I": [ 16 ],
+            "O": [ 67 ]
+          }
+        },
+        "z_IBUF[3]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:576.8-578.23"
+          },
+          "connections": {
+            "I": [ 17 ],
+            "O": [ 73 ]
+          }
+        },
+        "z_IBUF[4]_inst": {
+          "hide_name": 0,
+          "type": "IBUF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "dom_keccak_sboxNetlist.v:579.8-581.23"
+          },
+          "connections": {
+            "I": [ 18 ],
+            "O": [ 79 ]
+          }
+        }
+      },
+      "netnames": {
+        "ax[0]": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:436.14-436.16"
+          }
+        },
+        "ax[1]": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:436.14-436.16"
+          }
+        },
+        "ax[2]": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:436.14-436.16"
+          }
+        },
+        "ax[3]": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:436.14-436.16"
+          }
+        },
+        "ax[4]": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:436.14-436.16"
+          }
+        },
+        "ax_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:443.13-443.20"
+          }
+        },
+        "ax_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:443.13-443.20"
+          }
+        },
+        "ax_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:443.13-443.20"
+          }
+        },
+        "ax_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:443.13-443.20"
+          }
+        },
+        "ax_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:443.13-443.20"
+          }
+        },
+        "ay[0]": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:439.15-439.17"
+          }
+        },
+        "ay[1]": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:439.15-439.17"
+          }
+        },
+        "ay[2]": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:439.15-439.17"
+          }
+        },
+        "ay[3]": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:439.15-439.17"
+          }
+        },
+        "ay[4]": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:439.15-439.17"
+          }
+        },
+        "ay_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:445.13-445.20"
+          }
+        },
+        "ay_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:445.13-445.20"
+          }
+        },
+        "ay_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:445.13-445.20"
+          }
+        },
+        "ay_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:445.13-445.20"
+          }
+        },
+        "ay_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:445.13-445.20"
+          }
+        },
+        "bx[0]": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:437.14-437.16"
+          }
+        },
+        "bx[1]": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:437.14-437.16"
+          }
+        },
+        "bx[2]": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:437.14-437.16"
+          }
+        },
+        "bx[3]": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:437.14-437.16"
+          }
+        },
+        "bx[4]": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:437.14-437.16"
+          }
+        },
+        "bx_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:447.13-447.20"
+          }
+        },
+        "bx_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:447.13-447.20"
+          }
+        },
+        "bx_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:447.13-447.20"
+          }
+        },
+        "bx_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:447.13-447.20"
+          }
+        },
+        "bx_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:447.13-447.20"
+          }
+        },
+        "by[0]": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:440.15-440.17"
+          }
+        },
+        "by[1]": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:440.15-440.17"
+          }
+        },
+        "by[2]": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:440.15-440.17"
+          }
+        },
+        "by[3]": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:440.15-440.17"
+          }
+        },
+        "by[4]": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:440.15-440.17"
+          }
+        },
+        "by_OBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:449.13-449.20"
+          }
+        },
+        "by_OBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:449.13-449.20"
+          }
+        },
+        "by_OBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:449.13-449.20"
+          }
+        },
+        "by_OBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:449.13-449.20"
+          }
+        },
+        "by_OBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:449.13-449.20"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:434.9-434.12"
+          }
+        },
+        "clk_IBUF": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:451.8-451.16"
+          }
+        },
+        "clk_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:452.8-452.21"
+          }
+        },
+        "genblk1[0].dm0.<const1>": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 <const1>",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:32.8-32.17"
+          }
+        },
+        "genblk1[0].dm0.ax_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:28.14-28.21"
+          }
+        },
+        "genblk1[0].dm0.ax_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:28.14-28.21"
+          }
+        },
+        "genblk1[0].dm0.ax_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:28.14-28.21"
+          }
+        },
+        "genblk1[0].dm0.ay_OBUF": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 ay_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:24.15-24.22"
+          }
+        },
+        "genblk1[0].dm0.bx_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:29.14-29.21"
+          }
+        },
+        "genblk1[0].dm0.bx_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:29.14-29.21"
+          }
+        },
+        "genblk1[0].dm0.bx_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:29.14-29.21"
+          }
+        },
+        "genblk1[0].dm0.by_OBUF": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 by_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:25.15-25.22"
+          }
+        },
+        "genblk1[0].dm0.clk_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 clk_IBUF_BUFG",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:27.9-27.22"
+          }
+        },
+        "genblk1[0].dm0.rst_IBUF": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 rst_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:26.9-26.17"
+          }
+        },
+        "genblk1[0].dm0.tmpa": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 tmpa",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:39.8-39.12"
+          }
+        },
+        "genblk1[0].dm0.tmpa0": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 tmpa0",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:40.8-40.13"
+          }
+        },
+        "genblk1[0].dm0.tmpb": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 tmpb",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:41.8-41.12"
+          }
+        },
+        "genblk1[0].dm0.tmpb0": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 tmpb0",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:42.8-42.13"
+          }
+        },
+        "genblk1[0].dm0.z_IBUF": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "hdlname": "genblk1[0].dm0 z_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:524.18-531.28|dom_keccak_sboxNetlist.v:30.14-30.20"
+          }
+        },
+        "genblk1[1].dm0.<const1>": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 <const1>",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:114.8-114.17"
+          }
+        },
+        "genblk1[1].dm0.ax_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:110.14-110.21"
+          }
+        },
+        "genblk1[1].dm0.ax_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:110.14-110.21"
+          }
+        },
+        "genblk1[1].dm0.ax_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:110.14-110.21"
+          }
+        },
+        "genblk1[1].dm0.ay_OBUF": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 ay_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:106.15-106.22"
+          }
+        },
+        "genblk1[1].dm0.bx_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:111.14-111.21"
+          }
+        },
+        "genblk1[1].dm0.bx_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:111.14-111.21"
+          }
+        },
+        "genblk1[1].dm0.bx_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:111.14-111.21"
+          }
+        },
+        "genblk1[1].dm0.by_OBUF": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 by_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:107.15-107.22"
+          }
+        },
+        "genblk1[1].dm0.clk_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 clk_IBUF_BUFG",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:109.9-109.22"
+          }
+        },
+        "genblk1[1].dm0.rst_IBUF": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 rst_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:108.9-108.17"
+          }
+        },
+        "genblk1[1].dm0.tmpa": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 tmpa",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:121.8-121.12"
+          }
+        },
+        "genblk1[1].dm0.tmpa0": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 tmpa0",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:122.8-122.13"
+          }
+        },
+        "genblk1[1].dm0.tmpb": {
+          "hide_name": 0,
+          "bits": [ 60 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 tmpb",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:123.8-123.12"
+          }
+        },
+        "genblk1[1].dm0.tmpb0": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 tmpb0",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:124.8-124.13"
+          }
+        },
+        "genblk1[1].dm0.z_IBUF": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "attributes": {
+            "hdlname": "genblk1[1].dm0 z_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:532.20-539.28|dom_keccak_sboxNetlist.v:112.14-112.20"
+          }
+        },
+        "genblk1[2].dm0.<const1>": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 <const1>",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:196.8-196.17"
+          }
+        },
+        "genblk1[2].dm0.ax_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:192.14-192.21"
+          }
+        },
+        "genblk1[2].dm0.ax_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:192.14-192.21"
+          }
+        },
+        "genblk1[2].dm0.ax_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:192.14-192.21"
+          }
+        },
+        "genblk1[2].dm0.ay_OBUF": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 ay_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:188.15-188.22"
+          }
+        },
+        "genblk1[2].dm0.bx_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:193.14-193.21"
+          }
+        },
+        "genblk1[2].dm0.bx_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:193.14-193.21"
+          }
+        },
+        "genblk1[2].dm0.bx_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:193.14-193.21"
+          }
+        },
+        "genblk1[2].dm0.by_OBUF": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 by_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:189.15-189.22"
+          }
+        },
+        "genblk1[2].dm0.clk_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 clk_IBUF_BUFG",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:191.9-191.22"
+          }
+        },
+        "genblk1[2].dm0.rst_IBUF": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 rst_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:190.9-190.17"
+          }
+        },
+        "genblk1[2].dm0.tmpa": {
+          "hide_name": 0,
+          "bits": [ 65 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 tmpa",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:203.8-203.12"
+          }
+        },
+        "genblk1[2].dm0.tmpa0": {
+          "hide_name": 0,
+          "bits": [ 68 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 tmpa0",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:204.8-204.13"
+          }
+        },
+        "genblk1[2].dm0.tmpb": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 tmpb",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:205.8-205.12"
+          }
+        },
+        "genblk1[2].dm0.tmpb0": {
+          "hide_name": 0,
+          "bits": [ 69 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 tmpb0",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:206.8-206.13"
+          }
+        },
+        "genblk1[2].dm0.z_IBUF": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "attributes": {
+            "hdlname": "genblk1[2].dm0 z_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:540.20-547.28|dom_keccak_sboxNetlist.v:194.14-194.20"
+          }
+        },
+        "genblk1[3].dm0.<const1>": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 <const1>",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:278.8-278.17"
+          }
+        },
+        "genblk1[3].dm0.ax_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:274.14-274.21"
+          }
+        },
+        "genblk1[3].dm0.ax_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:274.14-274.21"
+          }
+        },
+        "genblk1[3].dm0.ax_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:274.14-274.21"
+          }
+        },
+        "genblk1[3].dm0.ay_OBUF": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 ay_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:270.15-270.22"
+          }
+        },
+        "genblk1[3].dm0.bx_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:275.14-275.21"
+          }
+        },
+        "genblk1[3].dm0.bx_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:275.14-275.21"
+          }
+        },
+        "genblk1[3].dm0.bx_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:275.14-275.21"
+          }
+        },
+        "genblk1[3].dm0.by_OBUF": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 by_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:271.15-271.22"
+          }
+        },
+        "genblk1[3].dm0.clk_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 clk_IBUF_BUFG",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:273.9-273.22"
+          }
+        },
+        "genblk1[3].dm0.rst_IBUF": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 rst_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:272.9-272.17"
+          }
+        },
+        "genblk1[3].dm0.tmpa": {
+          "hide_name": 0,
+          "bits": [ 71 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 tmpa",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:285.8-285.12"
+          }
+        },
+        "genblk1[3].dm0.tmpa0": {
+          "hide_name": 0,
+          "bits": [ 74 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 tmpa0",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:286.8-286.13"
+          }
+        },
+        "genblk1[3].dm0.tmpb": {
+          "hide_name": 0,
+          "bits": [ 72 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 tmpb",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:287.8-287.12"
+          }
+        },
+        "genblk1[3].dm0.tmpb0": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 tmpb0",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:288.8-288.13"
+          }
+        },
+        "genblk1[3].dm0.z_IBUF": {
+          "hide_name": 0,
+          "bits": [ 73 ],
+          "attributes": {
+            "hdlname": "genblk1[3].dm0 z_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:548.20-555.28|dom_keccak_sboxNetlist.v:276.14-276.20"
+          }
+        },
+        "genblk1[4].dm0.<const1>": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 <const1>",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:360.8-360.17"
+          }
+        },
+        "genblk1[4].dm0.ax_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:356.14-356.21"
+          }
+        },
+        "genblk1[4].dm0.ax_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:356.14-356.21"
+          }
+        },
+        "genblk1[4].dm0.ax_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 ax_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:356.14-356.21"
+          }
+        },
+        "genblk1[4].dm0.ay_OBUF": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 ay_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:352.15-352.22"
+          }
+        },
+        "genblk1[4].dm0.bx_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:357.14-357.21"
+          }
+        },
+        "genblk1[4].dm0.bx_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "offset": 1,
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:357.14-357.21"
+          }
+        },
+        "genblk1[4].dm0.bx_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "offset": 2,
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 bx_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:357.14-357.21"
+          }
+        },
+        "genblk1[4].dm0.by_OBUF": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 by_OBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:353.15-353.22"
+          }
+        },
+        "genblk1[4].dm0.clk_IBUF_BUFG": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 clk_IBUF_BUFG",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:355.9-355.22"
+          }
+        },
+        "genblk1[4].dm0.rst_IBUF": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 rst_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:354.9-354.17"
+          }
+        },
+        "genblk1[4].dm0.tmpa": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 tmpa",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:367.8-367.12"
+          }
+        },
+        "genblk1[4].dm0.tmpa0": {
+          "hide_name": 0,
+          "bits": [ 80 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 tmpa0",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:368.8-368.13"
+          }
+        },
+        "genblk1[4].dm0.tmpb": {
+          "hide_name": 0,
+          "bits": [ 78 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 tmpb",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:369.8-369.12"
+          }
+        },
+        "genblk1[4].dm0.tmpb0": {
+          "hide_name": 0,
+          "bits": [ 81 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 tmpb0",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:370.8-370.13"
+          }
+        },
+        "genblk1[4].dm0.z_IBUF": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "attributes": {
+            "hdlname": "genblk1[4].dm0 z_IBUF",
+            "src": "dom_keccak_sboxNetlist.v:556.20-563.28|dom_keccak_sboxNetlist.v:358.14-358.20"
+          }
+        },
+        "rst": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:435.9-435.12"
+          }
+        },
+        "rst_IBUF": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:454.8-454.16"
+          }
+        },
+        "z[0]": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:438.14-438.15"
+          }
+        },
+        "z[1]": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:438.14-438.15"
+          }
+        },
+        "z[2]": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:438.14-438.15"
+          }
+        },
+        "z[3]": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:438.14-438.15"
+          }
+        },
+        "z[4]": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:438.14-438.15"
+          }
+        },
+        "z_IBUF[0]": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:456.13-456.19"
+          }
+        },
+        "z_IBUF[1]": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "offset": 1,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:456.13-456.19"
+          }
+        },
+        "z_IBUF[2]": {
+          "hide_name": 0,
+          "bits": [ 67 ],
+          "offset": 2,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:456.13-456.19"
+          }
+        },
+        "z_IBUF[3]": {
+          "hide_name": 0,
+          "bits": [ 73 ],
+          "offset": 3,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:456.13-456.19"
+          }
+        },
+        "z_IBUF[4]": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "offset": 4,
+          "attributes": {
+            "src": "dom_keccak_sboxNetlist.v:456.13-456.19"
+          }
+        }
+      }
+    }
+  }
+}

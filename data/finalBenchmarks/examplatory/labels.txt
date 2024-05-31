@@ -1,0 +1,5 @@
+2;clk_i;unimportant
+6;r;share 1.1
+3;rst_i;unimportant
+4;s1;random
+5;s2;share 1.2

@@ -1,0 +1,5 @@
+5;X_i;share 1.1
+6;Y_i;share 1.2
+2;clk_i;unimportant
+4;read_address;unimportant
+3;rst_i;unimportant
